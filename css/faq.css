@@ -1,0 +1,370 @@
+body {
+  margin: 0;
+  height: 2000px;
+  overflow-x: hidden;
+}
+
+.cabecalho {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 282px;
+  background: transparent linear-gradient(261deg, #c7d4ff 0%, #ffd6d6 100%) 0%
+    0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.cabecalho h1 {
+  text-align: center;
+  margin-top: 10%;
+}
+
+.cabecalho-rolagem {
+  width: 100%;
+  height: 50px;
+  background: rgba(46, 46, 61, 0.8) no-repeat padding-box;
+  position: fixed;
+  z-index: 999;
+  opacity: 1;
+  top: 0;
+}
+
+.logo_sendfy_rolagem {
+  position: absolute;
+  left: 249px;
+  width: 130px;
+  height: 47px;
+  opacity: 1 !important;
+}
+
+.menu-cabecalho {
+  position: absolute;
+  left: 78%;
+  top: 12%;
+}
+
+.botao-criar-conta {
+  position: absolute;
+  left: 67%;
+  top: 11%;
+  border-radius: 20px;
+  width: 120px;
+  height: 30px;
+  background: #ffffff00 0% 0% no-repeat padding-box;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  border-radius: 20px;
+  opacity: 1;
+}
+
+.menu-rolagem-div {
+  margin-top: 8px;
+}
+
+.login {
+  margin-right: 30px;
+  letter-spacing: 0;
+  color: #ffffff;
+  opacity: 1;
+}
+
+.faq {
+  margin-right: 30px;
+  letter-spacing: 0;
+  color: #ffffff;
+  opacity: 1;
+}
+
+.main {
+  position: rela;
+  z-index: 999;
+  margin-top: 342px;
+  margin-left: 250px;
+  margin-right: 400px;
+}
+
+.info {
+  letter-spacing: 0;
+  opacity: 1;
+}
+
+.info a {
+  text-decoration: none;
+  letter-spacing: 0;
+  color: #005dff;
+  top: 342px;
+  left: 250px;
+  width: 527px;
+  height: 42px;
+}
+
+.botao-buscar {
+  background: #ffffff00 0% 0% no-repeat padding-box;
+  border: 1px solid #2e2e3d;
+  border-radius: 20px;
+  opacity: 1;
+  top: 425px;
+  left: 669px;
+  width: 582px;
+  height: 35px;
+  text-align: left;
+}
+
+.textos h4 {
+  top: 0px;
+  left: 0px;
+  width: 542px;
+  height: 21px;
+  text-align: left;
+  font: Medium 20px/30px Objektiv Mk3;
+  letter-spacing: 0;
+  color: #005dff;
+  margin-top: 30px;
+}
+
+.primeiro {
+  margin-top: 20px !important;
+}
+
+.textos p {
+  top: 63px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  text-align: left;
+  font: Regular 16px/30px Objektiv Mk3;
+  letter-spacing: 0;
+  color: #5a5970;
+}
+
+.rodape {
+  top: 2186px;
+  left: 0px;
+  width: 100%;
+  height: 685px;
+  background: transparent linear-gradient(106deg, #005dff 0%, #9958ef 100%) 0%
+    0% no-repeat padding-box;
+  opacity: 1;
+  text-align: center;
+  margin-top: 80px;
+}
+
+.rodape form {
+  width: 630px;
+  height: 451px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border-radius: 15px;
+  opacity: 1;
+  margin: auto;
+  padding-top: 35px;
+}
+
+.input {
+  text-align: left;
+  border-bottom: solid 1px #a9a9b4;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+.input label {
+  top: 2380px;
+  left: 665px;
+  width: 58px;
+  height: 18px;
+  text-align: left;
+  font: Regular 17px/24px Objektiv Mk3;
+  letter-spacing: -0.34px;
+  color: #005dff;
+  opacity: 1;
+  font-size: 20px;
+}
+
+.input input {
+  top: 2380px;
+  left: 728px;
+  height: 18px;
+  width: 200px;
+  text-align: left;
+  font: Regular 17px/24px Objektiv Mk3;
+  letter-spacing: -0.34px;
+  color: #a9a9b4;
+  opacity: 1;
+  border: none;
+  margin-left: 10px;
+  font-size: 15px;
+}
+
+.input-tel {
+  width: 130px !important;
+}
+
+.meligue {
+  margin-left: -88px !important;
+}
+
+.radio {
+  margin-left: -90px !important;
+}
+
+.empresa {
+  width: 500px !important;
+}
+
+.risco {
+  margin-top: 30px;
+  margin-left: 20px;
+  width: 60px;
+  height: 3px;
+  background: #717082 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.envio-mensagem {
+  margin-left: 20px;
+}
+
+.envio-mensagem h1 {
+  text-align: left;
+  font: Bold 17px/24px Objektiv Mk3;
+  letter-spacing: -0.34px;
+  color: #005dff;
+  opacity: 1;
+}
+
+.interacoes h1 {
+  margin-top: 30px;
+  font: Bold 17px/24px Objektiv Mk3;
+  letter-spacing: -0.34px;
+  color: #005dff;
+  opacity: 1;
+  width: 332px;
+  height: 18px;
+}
+
+.sim-nao {
+  margin-left: -470px;
+  font: Regular 17px/24px Objektiv Mk3;
+  letter-spacing: -0.34px;
+  color: #005dff;
+  opacity: 1;
+  font-size: 20px !important;
+}
+
+.label-nao {
+  margin-left: 20px;
+}
+
+.radiobox-interacoes {
+  display: flex;
+  justify-content: center;
+}
+
+.radiobox {
+  top: 2677px;
+  left: 665px;
+  width: 110px;
+  height: 30px;
+  border: 1px solid #7f7da1;
+  border-radius: 15px;
+  opacity: 1;
+  margin-right: 5px;
+  letter-spacing: -0.34px;
+  color: #005dff;
+  opacity: 1;
+  font-size: 18px;
+}
+
+.botao-enviar {
+  margin-top: 20px;
+  border-radius: 25px;
+  font-size: 15px;
+  color: white;
+  padding: 10px 15px 10px 15px;
+  border: none;
+  background: transparent linear-gradient(101deg, #005dff 0%, #7958ef 100%) 0%
+    0% no-repeat padding-box;
+}
+
+.fim {
+  top: 2871px;
+  left: 0px;
+  width: 100%;
+  height: 337px;
+  background: #2e2e3d 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.meio {
+  border-right: solid 2px gray;
+  width: 2px;
+  height: 200px;
+  margin-top: auto;
+}
+
+.conteudo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.conteudo-esquerdo {
+  margin-top: 90px;
+  width: 120px;
+  padding-right: 50px;
+}
+
+.conteudo-esquerdo h5 {
+  font: Regular 18px/24px Objektiv Mk3;
+  letter-spacing: -0.36px;
+  color: #81818a;
+  opacity: 1;
+  font-size: 20px;
+}
+
+.conteudo-direito {
+  margin-left: 40px;
+  margin-top: 90px;
+}
+
+.linkedin {
+  margin-left: 20px;
+}
+
+.conteudo-direito p {
+  text-align: left;
+  font: Regular 18px/24px Objektiv Mk3;
+  letter-spacing: -0.36px;
+  color: #81818a;
+  opacity: 1;
+}
+
+.produtos {
+  margin-left: 10px;
+}
+
+.copyright {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.copyright p {
+  width: 420px;
+  font: Regular 13px/24px Objektiv Mk3;
+  letter-spacing: -0.26px;
+  color: #81818a;
+  opacity: 1;
+  margin-bottom: 0;
+}
+
+.fim a {
+  margin-left: 8px;
+  text-decoration: none;
+  width: 140px;
+  letter-spacing: -0.26px;
+  color: #cacace;
+  opacity: 1;
+}
