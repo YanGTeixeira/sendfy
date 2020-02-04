@@ -13,12 +13,14 @@ body{
     opacity: 1;
     border-radius: 0 0 40% 55%;
     position: absolute;
+    z-index: 2;
 }
 .cabecalho-rolagem{
     width: 100%;
     height: 50px;
     background: rgba(46, 46, 61, 0.8) no-repeat padding-box;
     position: fixed;
+    z-index: 1;
 }
 
 .cabecalho:after {
@@ -38,13 +40,14 @@ body{
 
 .logo_sendfy {
     position: absolute;
-    top: 11%;
-    left: 249px;
-    width: 177px;
+    top: 7%;
+    left: 233px;
+    width: 120px;
     height: 47px;
     /* background: transparent url(./imgs/logo_sendfy.png) 0% 0% no-repeat padding-box; */
     opacity: 1;
 }
+
 .logo_sendfy_rolagem{
     position: absolute;
     left: 249px;
@@ -57,7 +60,7 @@ body{
 .ilustra_topo {
     position: absolute;
     top: 36px;
-    left: 800px;
+    left: 57%;
     width: 450px;
     height: 352px;
     /* background: transparent url(./imgs/ilustra_topo.png) 0% 0% no-repeat padding-box; */
@@ -87,13 +90,13 @@ body{
 .menu-cabecalho{
     position: absolute;
     left: 78%;
-    top: 12%;
+    top: 9%;
 }
 
 .botao-criar-conta {
     position: absolute;
     left: 67%;
-    top: 11%;
+    top: 8%;
     border-radius: 20px;
     width: 120px;
     height: 30px;
@@ -154,17 +157,134 @@ body{
 }
 .funcionalidades{
     position: absolute;
-    top: 449px;
-    left: 511px;
+    top: 450px;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* align-items: center */
 }
-
-
 .titulo-funcionalidades{
     width: 356px;
     height: 47px;
     font-size: 41px;
+    text-align: center;
     /* font: Black 45px/64px Objektiv Mk3; */
     letter-spacing: -1.35px;
     color: #005DFF;
     opacity: 1;
+}
+
+.div-funcionalidades{
+    position: absolute;
+    top: 150px;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* align-items: center */
+}
+
+.img-funcionalidade{
+    width: 380px;
+    height: 208px;
+    margin-right: 5%;
+    margin-left: -12px;
+    margin-bottom: 120px;
+}
+
+.titulo-funcionalidade{
+    text-align: left;
+    font: Medium 25px/30px Objektiv Mk3;
+    letter-spacing: 0;
+    color: #005DFF;
+    opacity: 1;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.texto-funcionalidade{
+    text-align: left;
+    font: Regular 17px/24px Objektiv Mk3;
+    letter-spacing: 0;
+    color: #5A5970;
+    opacity: 1;
+    font-size: 18px;
+}
+
+.funcionalidades-esquerda{
+    margin-right: 5%;
+}
+
+.posicionamento-texto{
+    margin-bottom: 210px;
+}
+
+.borda{
+    top: 260px;
+    left: 686px;
+    width: 142px;
+    height: 4px;
+    background: #7F7DA1 0% 0% no-repeat padding-box;
+    border-radius: 2px;
+    opacity: 0.3;
+    position: absolute;
+}
+
+.borda-2{
+    top: 620px;
+    left: 686px;
+    width: 142px;
+    height: 4px;
+    background: #7F7DA1 0% 0% no-repeat padding-box;
+    border-radius: 2px;
+    opacity: 0.3;
+    position: absolute;
+}
+
+.borda-3{
+    top: 980px;
+    left: 686px;
+    width: 142px;
+    height: 4px;
+    background: #7F7DA1 0% 0% no-repeat padding-box;
+    border-radius: 2px;
+    opacity: 0.3;
+    position: absolute;
+}
+
+.botao-acesse-agora-funcionalidades{
+    position: absolute;
+    top: 1290px;
+    width: 210px;
+    height: 40px;
+    background: transparent linear-gradient(94deg, #005DFF 0%, #7958EF 100%) 0% 0% no-repeat padding-box;
+    border-radius: 25px;
+    border-color: transparent;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.veja{
+    position: absolute;
+    top: 1980px;
+    background: #2E2E3D 0% 0% no-repeat padding-box;
+    opacity: 1;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.titulo-veja{
+    color: #F6F6F9;
+    font-size: 30px;
+    margin-top: 3%;
+}
+
+.veja-textos{
+    
 }
