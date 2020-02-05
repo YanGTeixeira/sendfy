@@ -1,7 +1,13 @@
+@font-face { 
+    font-family: 'Objektiv';
+    src: url('../fonts/Objektiv Mk3 W03 Regular/Objektiv Mk3 W03 Regular.ttf');
+  }
+
 body{
     margin: 0;
     height: 2000px;
     overflow-x: hidden;
+    font-family: Regular, Objektiv;
 }
 
 .cabecalho{
@@ -77,7 +83,7 @@ body{
     width: 389px;
     height: 30px;
     text-align: left;
-    font: Regular 27px/39px Objektiv Mk3 XBold;
+    /* font-family: Regular, Objektiv; */
     letter-spacing: 0;
     color: #FFFFFF;
     opacity: 1;
@@ -106,6 +112,7 @@ body{
     color: #FFFFFF;
     border-radius: 20px;
     opacity: 1;
+    font-family: Regular, Objektiv;
 }
 
 .botoes-cabecalho{
@@ -123,6 +130,7 @@ body{
     border-color: transparent;
     color: #FFFFFF;
     opacity: 1;
+    font-family: Regular, Objektiv;
 }
 
 .botao-falar-com{
@@ -133,6 +141,7 @@ body{
     color: #C0C0C5;
     border-radius: 25px;
     opacity: 1;
+    font-family: Regular, Objektiv;
 }
 
 .menu-rolagem{
@@ -199,7 +208,7 @@ body{
 
 .titulo-funcionalidade{
     text-align: left;
-    font: Medium 25px/30px Objektiv Mk3;
+    /* font-family: Medium, Objektiv; */
     letter-spacing: 0;
     color: #005DFF;
     opacity: 1;
@@ -209,7 +218,7 @@ body{
 
 .texto-funcionalidade{
     text-align: left;
-    font: Regular 17px/24px Objektiv Mk3;
+    /* font-family: Regular, Objektiv; */
     letter-spacing: 0;
     color: #5A5970;
     opacity: 1;
@@ -271,7 +280,7 @@ body{
 
 .botao-acesse-agora-funcionalidades{
     position: absolute;
-    top: 1290px;
+    top: 1317px;
     width: 210px;
     height: 40px;
     background: transparent linear-gradient(94deg, #005DFF 0%, #7958EF 100%) 0% 0% no-repeat padding-box;
@@ -279,6 +288,7 @@ body{
     border-color: transparent;
     color: #FFFFFF;
     opacity: 1;
+    font-family: Regular, Objektiv;
 }
 
 .veja{
@@ -337,7 +347,7 @@ body{
     font-size: 30px;
     position: relative;
     text-align: right;
-    font: Bold 30px/35px Objektiv Mk3;
+    /* font-family: Bold, Objektiv; */
     letter-spacing: -0.9px;
     color: #F3F4F9;
     opacity: 1;
@@ -383,7 +393,7 @@ body{
     font-size: 30px;
     position: absolute;
     text-align: center;
-    font: Bold 30px/35px Objektiv Mk3;
+    /* font-family: Bold, Objektiv; */
     letter-spacing: -0.9px;
     color: #2E2E3D;
     opacity: 1;
@@ -423,11 +433,13 @@ body{
     opacity: 1;
 }
 
-.titulo-caso{
+.titulo-caso {
     width: 254px;
+    font-size: 18px;
+    margin-bottom: -6px;
     height: 93px;
     text-align: left;
-    font: Bold 24px/29px Objektiv Mk3;
+    /* font-family: Bold, Objektiv; */
     letter-spacing: -0.48px;
     color: #005DFF;
     opacity: 1;
@@ -447,7 +459,7 @@ body{
 
 .texto-casos {
     text-align: left;
-    font: Regular 17px/24px Objektiv Mk3;
+    /* font: Regular 17px/24px Objektiv Mk3; */
     letter-spacing: -0.34px;
     color: #717082;
     opacity: 1;
@@ -477,7 +489,7 @@ body{
     font-size: 30px;
     position: absolute;
     text-align: center;
-    font: Bold 30px/35px Objektiv Mk3;
+    /* font: Bold 30px/35px Objektiv Mk3; */
     letter-spacing: -0.9px;
     color: #2E2E3D;
     opacity: 1;
@@ -526,7 +538,7 @@ body{
   }
   
   .input label {
-    font: Regular 17px/24px Objektiv Mk3;
+    /* font: Regular 17px/24px Objektiv Mk3; */
     letter-spacing: -0.34px;
     color: #005dff;
     opacity: 1;
@@ -538,7 +550,7 @@ body{
     height: 18px;
     width: 200px;
     text-align: left;
-    font: Regular 17px/24px Objektiv Mk3;
+    font-family: Regular, Objektiv;
     letter-spacing: -0.34px;
     color: #a9a9b4;
     opacity: 1;
@@ -548,7 +560,7 @@ body{
   }
   
   .input-tel {
-    width: 130px !important;
+    width: 137px !important;
   }
   
   .meligue {
@@ -570,7 +582,7 @@ body{
     border-radius: 50%;
     cursor: pointer;
     height: 18px;
-    left: 220px;
+    left: 240px;
     position: absolute;
     top: -21px;
     width: 18px;
@@ -647,7 +659,7 @@ input[type='radio']:checked + label:after {
 }
 
   .texto-radio{
-      font-size: 15px;
+      font-size: 12px;
   }
   
   .empresa {
@@ -670,30 +682,33 @@ input[type='radio']:checked + label:after {
   
   .envio-mensagem h1 {
     text-align: left;
-    font: Bold 17px/24px Objektiv Mk3;
+    /* font: Bold 17px/24px Objektiv Mk3; */
     letter-spacing: -0.34px;
     color: #005dff;
     opacity: 1;
+    font-size: 17px;
   }
   
   .interacoes h1 {
-    margin-top: 30px;
-    font: Bold 17px/24px Objektiv Mk3;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    /* font: Bold 17px/24px Objektiv Mk3; */
     letter-spacing: -0.34px;
     color: #005dff;
     opacity: 1;
-    width: 332px;
+    width: 460px;
     height: 18px;
-  }
+    font-size: 17px; 
+    margin-left: -45px;
+}
   
-  .sim-nao {
-    margin-left: -470px;
-    font: Regular 17px/24px Objektiv Mk3;
+.sim-nao {
+    margin-left: -460px;
     letter-spacing: -0.34px;
     color: #005dff;
     opacity: 1;
-    font-size: 20px !important;
-  }
+    font-size: 17px !important;
+}
   
   .label-nao {
     margin-left: 20px;
@@ -707,7 +722,7 @@ input[type='radio']:checked + label:after {
   .radiobox {
     top: 2677px;
     left: 665px;
-    width: 100px;
+    width: 107px;
     height: 26px;
     border: 1px solid #7f7da1;
     border-radius: 15px;
@@ -717,19 +732,17 @@ input[type='radio']:checked + label:after {
     color: #005dff;
     opacity: 1;
     font-size: 18px;
-    padding-top: 3px;
-    padding-left: 5px;
 }
   
   .botao-enviar {
-    margin-top: 25px;
+    margin-top: 15px;
     border-radius: 25px;
     font-size: 15px;
     color: white;
     padding: 10px 15px 10px 15px;
     border: none;
-    background: transparent linear-gradient(101deg, #005dff 0%, #7958ef 100%) 0%
-      0% no-repeat padding-box;
+    background: transparent linear-gradient(101deg, #005dff 0%, #7958ef 100%) 0% 0% no-repeat padding-box;
+      font-family: Regular, Objektiv;
   }
 
   .fim {
@@ -737,7 +750,7 @@ input[type='radio']:checked + label:after {
     top: 4295px;
     left: 0px;
     width: 100%;
-    height: 337px;
+    height: 344px;
     background: #2e2e3d 0% 0% no-repeat padding-box;
     opacity: 1;
     
@@ -746,7 +759,7 @@ input[type='radio']:checked + label:after {
   .meio {
     border-right: solid 2px gray;
     width: 2px;
-    height: 200px;
+    height: 186px;
     margin-top: auto;
   }
   
@@ -762,22 +775,22 @@ input[type='radio']:checked + label:after {
   }
   
   .conteudo-esquerdo {
-    margin-top: 90px;
+    margin-top: 133px;
     width: 120px;
     padding-right: 50px;
   }
   
   .conteudo-esquerdo h5 {
-    font: Regular 18px/24px Objektiv Mk3;
+    /* font: Regular 18px/24px Objektiv Mk3; */
     letter-spacing: -0.36px;
     color: #81818a;
     opacity: 1;
-    font-size: 20px;
+    font-size: 15px;
   }
   
   .conteudo-direito {
     margin-left: 40px;
-    margin-top: 90px;
+    margin-top: 133px;
   }
   
   .linkedin {
@@ -786,10 +799,11 @@ input[type='radio']:checked + label:after {
   
   .conteudo-direito p {
     text-align: left;
-    font: Regular 18px/24px Objektiv Mk3;
+    /* font: Regular 18px/24px Objektiv Mk3; */
     letter-spacing: -0.36px;
     color: #81818a;
     opacity: 1;
+    margin: 0;
   }
   
   .produtos {
@@ -806,11 +820,12 @@ input[type='radio']:checked + label:after {
   
   .copyright p {
     width: 420px;
-    font: Regular 13px/24px Objektiv Mk3;
+    /* font-family: Regular, Objektiv Mk3; */
     letter-spacing: -0.26px;
     color: #81818a;
     opacity: 1;
     margin-bottom: 0;
+    font-size: 15px;
   }
   
   .fim a {
@@ -820,4 +835,87 @@ input[type='radio']:checked + label:after {
     letter-spacing: -0.26px;
     color: #cacace;
     opacity: 1;
+    font-size: 15px;
+  }
+
+
+  /* FIM DA PAGINA */
+
+  .zaas{
+    background: url("../imgs/zaas.svg") no-repeat;
+    position: relative;
+    width: 35px;
+    height: 35px;
+  }
+
+  .zaas:hover {
+    background: url("../imgs/zaas2.svg") no-repeat;
+    position: relative;
+    width: 35px;
+    height: 35px;
+  }
+
+  .arch{
+    background: url("../imgs/arch.svg") no-repeat;
+    position: relative;
+    width: 35px;
+    height: 35px;
+    margin-left: 10px;
+  }
+
+  .arch:hover {
+    background: url("../imgs/arch2.svg") no-repeat;
+    position: relative;
+    width: 35px;
+    height: 35px;
+  }
+
+  .mzk{
+    background: url("../imgs/mzk.svg") no-repeat;
+    position: relative;
+    width: 35px;
+    height: 35px;
+    margin-left: 10px;
+  }
+
+  .mzk:hover {
+    background: url("../imgs/mzk2.svg") no-repeat;
+    position: relative;
+    width: 35px;
+    height: 35px;
+  }
+
+  .crm{
+    background: url("../imgs/crm.svg") no-repeat;
+    position: relative;
+    width: 35px;
+    height: 35px;
+    margin-left: 10px;
+  }
+
+  .crm:hover {
+    background: url("../imgs/crm2.svg") no-repeat;
+    position: relative;
+    width: 35px;
+    height: 35px;
+  }
+
+  .ds{
+    background: url("../imgs/ds.svg") no-repeat;
+    position: relative;
+    width: 35px;
+    height: 35px;
+    margin-left: 10px;
+  }
+
+  .ds:hover {
+    background: url("../imgs/ds2.svg") no-repeat;
+    position: relative;
+    width: 35px;
+    height: 35px;
+  }
+
+  .icons{
+      display: flex;
+      
   }
