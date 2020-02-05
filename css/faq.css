@@ -7,6 +7,7 @@ body {
   margin: 0;
   height: 2000px;
   overflow-x: hidden;
+  font-family: Regular, Objektiv;
 }
 
 .cabecalho {
@@ -162,7 +163,7 @@ body {
   width: 542px;
   height: 21px;
   text-align: left;
-  font: Medium 20px/30px Objektiv Mk3;
+  font: Medium, Objektiv Mk3;
   letter-spacing: 0;
   color: #005dff;
   margin-top: 30px;
@@ -179,21 +180,47 @@ body {
   width: 100%;
   height: 100%;
   text-align: left;
-  font: Regular 16px/30px Objektiv Mk3;
+  font: Regular, Objektiv Mk3;
   letter-spacing: 0;
   color: #5a5970;
 }
 
+.titulo-rodape{
+  width: 347px;
+  height: 32px;
+  font-size: 30px;
+  position: absolute;
+  text-align: center;
+  font: Bold, Objektiv Mk3;
+  letter-spacing: -0.9px;
+  color: #2E2E3D;
+  opacity: 1;
+}
+
 .rodape {
-  top: 2186px;
+  display: flex;
+  top: 0px;
   left: 0px;
   width: 100%;
+  position: relative;
   height: 685px;
-  background: transparent linear-gradient(106deg, #005dff 0%, #9958ef 100%) 0%
-    0% no-repeat padding-box;
+  background: transparent linear-gradient(106deg, #005dff 0%, #9958ef 100%) 0% 0% no-repeat padding-box;
   opacity: 1;
   text-align: center;
   margin-top: 80px;
+}
+
+.titulo-rodape-contato{
+  height: 38px;
+  font-size: 70px;
+  position: absolute;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: #FFFFFF;
+  font-size: 45px;
+  margin-top: 16px;
 }
 
 .rodape form {
@@ -215,16 +242,10 @@ body {
 }
 
 .input label {
-  top: 2380px;
-  left: 665px;
-  width: 58px;
-  height: 18px;
-  text-align: left;
-  font: 'Regular', 'Objektiv';
+  font: Regular, Objektiv Mk3;
   letter-spacing: -0.34px;
   color: #005dff;
   opacity: 1;
-  font-size: 20px;
 }
 
 .input input {
@@ -233,7 +254,7 @@ body {
   height: 18px;
   width: 200px;
   text-align: left;
-  font: 'Regular', 'Objektiv Mk3';
+  font: Regular, Objektiv Mk3;
   letter-spacing: -0.34px;
   color: #a9a9b4;
   opacity: 1;
@@ -247,11 +268,102 @@ body {
 }
 
 .meligue {
-  margin-left: -88px !important;
+  margin-left: 40px !important;
 }
 
-.radio {
+.checkbox {
   margin-left: -90px !important;
+  border-radius: 50%;
+}
+
+.round {
+  position: absolute;
+}
+
+.round label {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  cursor: pointer;
+  height: 18px;
+  left: 220px;
+  position: absolute;
+  top: -21px;
+  width: 18px;
+}
+
+.round label:after {
+  border: 2px solid #fff;
+  border-top: none;
+  border-right: none;
+  content: "";
+  height: 6px;
+  left: 3px;
+  opacity: 0;
+  position: absolute;
+  top: 3px;
+  transform: rotate(-45deg);
+  width: 10px;
+}
+
+.round input[type="checkbox"] {
+  visibility: hidden;
+}
+
+.round input[type="checkbox"]:checked + label {
+  background-color: #005dff;
+  border-color: #005dff;
+}
+
+.round input[type="checkbox"]:checked + label:after {
+  opacity: 1;
+}
+
+
+input[type='radio']:after {
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  top: -1px;
+  left: 0px;
+  position: relative;
+  background-color: #FFFFFF;
+  content: '';
+  display: inline-block;
+  visibility: visible;
+  border: 1px solid #d1d3d1;
+}
+
+input[type='radio']:checked + label:after {
+  width: 9px;
+  height: 9px;
+  border-radius: 15px;
+  top: -1px;
+  left: -16px;
+  position: relative;
+  background-color: #005dff;
+  content: '';
+  display: inline-block;
+  visibility: visible;
+}
+
+.radio-mensagens{
+  margin: 0px;
+  position: absolute;
+}
+
+.radio-interacoes{
+  margin-left: 4px;
+  position: absolute;
+}
+
+.radio-mensagens1{
+  position: absolute;
+  margin-left: 4px;
+}
+
+.texto-radio{
+    font-size: 12px;
 }
 
 .empresa {
@@ -267,35 +379,39 @@ body {
   opacity: 1;
 }
 
+
 .envio-mensagem {
   margin-left: 20px;
 }
 
 .envio-mensagem h1 {
   text-align: left;
-  font: Bold, 'Objektiv';
+  /* font: Bold 17px/24px Objektiv Mk3; */
   letter-spacing: -0.34px;
   color: #005dff;
   opacity: 1;
+  font-size: 17px;
 }
 
 .interacoes h1 {
-  margin-top: 30px;
-  font: Bold, 'Objektiv';
+  margin-top: 20px;
+  margin-bottom: 25px;
+  /* font: Bold 17px/24px Objektiv Mk3; */
   letter-spacing: -0.34px;
   color: #005dff;
   opacity: 1;
-  width: 332px;
+  width: 460px;
   height: 18px;
+  font-size: 17px; 
+  margin-left: -45px;
 }
 
 .sim-nao {
-  margin-left: -470px;
-  font: 'Regular', 'Objektiv';
+  margin-left: -460px;
   letter-spacing: -0.34px;
   color: #005dff;
   opacity: 1;
-  font-size: 20px !important;
+  font-size: 17px !important;
 }
 
 .label-nao {
@@ -310,8 +426,8 @@ body {
 .radiobox {
   top: 2677px;
   left: 665px;
-  width: 110px;
-  height: 30px;
+  width: 107px;
+  height: 26px;
   border: 1px solid #7f7da1;
   border-radius: 15px;
   opacity: 1;
@@ -323,23 +439,25 @@ body {
 }
 
 .botao-enviar {
-  margin-top: 20px;
+  margin-top: 15px;
   border-radius: 25px;
   font-size: 15px;
   color: white;
   padding: 10px 15px 10px 15px;
   border: none;
-  background: transparent linear-gradient(101deg, #005dff 0%, #7958ef 100%) 0%
-    0% no-repeat padding-box;
+  background: transparent linear-gradient(101deg, #005dff 0%, #7958ef 100%) 0% 0% no-repeat padding-box;
+    font-family: Regular, Objektiv;
 }
 
 .fim {
-  top: 2871px;
+  position: relative;
+  top: 0px;
   left: 0px;
   width: 100%;
-  height: 337px;
+  height: 380px;
   background: #2e2e3d 0% 0% no-repeat padding-box;
   opacity: 1;
+  
 }
 
 .meio {
@@ -351,8 +469,13 @@ body {
 
 .conteudo {
   display: flex;
-  align-items: center;
+  opacity: 1;
+  position: relative;
+  width: 105vw;
+  display: flex;
+  flex-direction: row;
   justify-content: center;
+  align-items: center
 }
 
 .conteudo-esquerdo {
@@ -362,7 +485,7 @@ body {
 }
 
 .conteudo-esquerdo h5 {
-  font: 'Regular', 'Objektiv';
+  font: Regular 18px/24px Objektiv Mk3;
   letter-spacing: -0.36px;
   color: #81818a;
   opacity: 1;
@@ -380,7 +503,7 @@ body {
 
 .conteudo-direito p {
   text-align: left;
-  font: 'Regular', 'Objektiv';
+  font: Regular 18px/24px Objektiv Mk3;
   letter-spacing: -0.36px;
   color: #81818a;
   opacity: 1;
@@ -395,11 +518,13 @@ body {
   align-items: center;
   justify-content: center;
   margin-top: 30px;
+  width: 105vw;
 }
 
 .copyright p {
   width: 420px;
-  font: 'Regular', 'Objektiv';
+  font: Regular 13px/24px Objektiv Mk3;
+  font-size: 15px;
   letter-spacing: -0.26px;
   color: #81818a;
   opacity: 1;
@@ -408,146 +533,89 @@ body {
 
 .fim a {
   margin-left: 8px;
-  text-decoration: none;
-  width: 140px;
-  letter-spacing: -0.26px;
-  color: #cacace;
-  opacity: 1;
+    text-decoration: none;
+    width: 140px;
+    letter-spacing: -0.26px;
+    color: #cacace;
+    opacity: 1;
+    font-size: 15px;
 }
 
-
-@media(max-width: 1420px) {
-
-  .icone-busca {
-    margin-left: 220px;
-  }
-
+.zaas{
+  background: url("../imgs/zaas.svg") no-repeat;
+  position: relative;
+  width: 35px;
+  height: 35px;
 }
 
-@media(max-width: 1380px) {
-
-  .icone-busca {
-    margin-left: 204px;
-  }
-
+.zaas:hover {
+  background: url("../imgs/zaas2.svg") no-repeat;
+  position: relative;
+  width: 35px;
+  height: 35px;
 }
 
-@media(max-width: 1305px) {
-
-  .icone-busca {
-    margin-left: 180px;
-  }
-
+.arch{
+  background: url("../imgs/arch.svg") no-repeat;
+  position: relative;
+  width: 35px;
+  height: 35px;
+  margin-left: 10px;
 }
 
-@media(max-width: 1232px) {
-
-  .icone-busca {
-    margin-left: 160px;
-  }
-
+.arch:hover {
+  background: url("../imgs/arch2.svg") no-repeat;
+  position: relative;
+  width: 35px;
+  height: 35px;
 }
 
-@media(max-width: 1223px) {
-
-  .icone-busca {
-    margin-left: 150px;
-  }
-
+.mzk{
+  background: url("../imgs/mzk.svg") no-repeat;
+  position: relative;
+  width: 35px;
+  height: 35px;
+  margin-left: 10px;
 }
 
-@media(max-width: 1165px) {
-
-  .login {
-    margin-left: 20px;
-  }
-
+.mzk:hover {
+  background: url("../imgs/mzk2.svg") no-repeat;
+  position: relative;
+  width: 35px;
+  height: 35px;
 }
 
-@media(max-width: 1139px) {
-
-  .icone-busca {
-    margin-left: 120px;
-  }
-
+.crm{
+  background: url("../imgs/crm.svg") no-repeat;
+  position: relative;
+  width: 35px;
+  height: 35px;
+  margin-left: 10px;
 }
 
-@media(max-width: 1150px) {
-
-  .icone-busca {
-    margin-left: 122px;
-  }
-
+.crm:hover {
+  background: url("../imgs/crm2.svg") no-repeat;
+  position: relative;
+  width: 35px;
+  height: 35px;
 }
 
-@media(max-width: 1090px) {
-
-  .icone-busca {
-    margin-left: 102px;
-  }
-
+.ds{
+  background: url("../imgs/ds.svg") no-repeat;
+  position: relative;
+  width: 35px;
+  height: 35px;
+  margin-left: 10px;
 }
 
-@media(max-width: 1084px) {
-
-  .icone-busca {
-    margin-left: 100px;
-  }
-
+.ds:hover {
+  background: url("../imgs/ds2.svg") no-repeat;
+  position: relative;
+  width: 35px;
+  height: 35px;
 }
 
-@media(max-width: 1072px) {
-
-  .icone-busca {
-    margin-left: 94px;
-  }
-
-}
-
-@media(max-width: 1064px) {
-
-  .icone-busca {
-    margin-left: 92px;
-  }
-
-}
-
-@media(max-width: 1014px) {
-
-  .icone-busca {
-    margin-left: 72px;
-  }
-
-}
-
-@media(max-width: 999px) {
-
-  .icone-busca {
-    margin-left: 70px;
-  }
-
-}
-
-@media(max-width: 992px) {
-
-  .icone-busca {
-    margin-left: 70px;
-  }
-
-}
-
-@media(max-width: 982px) {
-
-  .icone-busca {
-    margin-left: 70px;
-  }
-
-}
-
-@media(max-width: 973px) {
-
-  .login {
-    margin-left: 30px;
-  }
-
+.icons{
+    display: flex;
+    
 }
