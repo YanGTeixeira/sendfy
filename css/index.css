@@ -346,10 +346,8 @@ body{
 }
 
 .video-veja{
-    width: 477px;
-    height: 270px;
+    box-shadow: 0px 0px 25px #0077FF80;
     border-radius: 15px;
-    opacity: 1;
 }
 
 .barra {
@@ -528,17 +526,11 @@ body{
   }
   
   .input label {
-    top: 2380px;
-    left: 665px;
-    width: 58px;
-    height: 18px;
-    text-align: left;
     font: Regular 17px/24px Objektiv Mk3;
     letter-spacing: -0.34px;
     color: #005dff;
     opacity: 1;
-    font-size: 15px;
-  }
+}
   
   .input input {
     top: 2380px;
@@ -560,11 +552,102 @@ body{
   }
   
   .meligue {
-    margin-left: -88px !important;
+    margin-left: 40px !important;
   }
   
-  .radio {
+  .checkbox {
     margin-left: -90px !important;
+    border-radius: 50%;
+  }
+
+  .round {
+    position: absolute;
+  }
+  
+  .round label {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    cursor: pointer;
+    height: 18px;
+    left: 220px;
+    position: absolute;
+    top: -21px;
+    width: 18px;
+  }
+  
+  .round label:after {
+    border: 2px solid #fff;
+    border-top: none;
+    border-right: none;
+    content: "";
+    height: 6px;
+    left: 3px;
+    opacity: 0;
+    position: absolute;
+    top: 3px;
+    transform: rotate(-45deg);
+    width: 10px;
+  }
+  
+  .round input[type="checkbox"] {
+    visibility: hidden;
+  }
+  
+  .round input[type="checkbox"]:checked + label {
+    background-color: #005dff;
+    border-color: #005dff;
+  }
+  
+  .round input[type="checkbox"]:checked + label:after {
+    opacity: 1;
+  }
+
+
+  input[type='radio']:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -1px;
+    left: 0px;
+    position: relative;
+    background-color: #FFFFFF;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 1px solid #d1d3d1;
+}
+
+input[type='radio']:checked + label:after {
+    width: 9px;
+    height: 9px;
+    border-radius: 15px;
+    top: -1px;
+    left: -16px;
+    position: relative;
+    background-color: #005dff;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+}
+
+.radio-mensagens{
+    margin: 0px;
+    position: absolute;
+}
+
+.radio-interacoes{
+    margin-left: 4px;
+    position: absolute;
+}
+
+.radio-mensagens1{
+    position: absolute;
+    margin-left: 4px;
+}
+
+  .texto-radio{
+      font-size: 15px;
   }
   
   .empresa {
@@ -624,8 +707,8 @@ body{
   .radiobox {
     top: 2677px;
     left: 665px;
-    width: 110px;
-    height: 30px;
+    width: 100px;
+    height: 26px;
     border: 1px solid #7f7da1;
     border-radius: 15px;
     opacity: 1;
@@ -634,9 +717,9 @@ body{
     color: #005dff;
     opacity: 1;
     font-size: 18px;
-    padding-top: 7px;
-    padding-left: 8px;
-  }
+    padding-top: 3px;
+    padding-left: 5px;
+}
   
   .botao-enviar {
     margin-top: 7px;
@@ -647,4 +730,94 @@ body{
     border: none;
     background: transparent linear-gradient(101deg, #005dff 0%, #7958ef 100%) 0%
       0% no-repeat padding-box;
+  }
+
+  .fim {
+    position: relative;
+    top: 4295px;
+    left: 0px;
+    width: 100%;
+    height: 337px;
+    background: #2e2e3d 0% 0% no-repeat padding-box;
+    opacity: 1;
+    
+  }
+  
+  .meio {
+    border-right: solid 2px gray;
+    width: 2px;
+    height: 200px;
+    margin-top: auto;
+  }
+  
+  .conteudo {
+    display: flex;
+    opacity: 1;
+    position: relative;
+    width: 105vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center
+  }
+  
+  .conteudo-esquerdo {
+    margin-top: 90px;
+    width: 120px;
+    padding-right: 50px;
+  }
+  
+  .conteudo-esquerdo h5 {
+    font: Regular 18px/24px Objektiv Mk3;
+    letter-spacing: -0.36px;
+    color: #81818a;
+    opacity: 1;
+    font-size: 20px;
+  }
+  
+  .conteudo-direito {
+    margin-left: 40px;
+    margin-top: 90px;
+  }
+  
+  .linkedin {
+    margin-left: 20px;
+  }
+  
+  .conteudo-direito p {
+    text-align: left;
+    font: Regular 18px/24px Objektiv Mk3;
+    letter-spacing: -0.36px;
+    color: #81818a;
+    opacity: 1;
+  }
+  
+  .produtos {
+    margin-left: 10px;
+  }
+  
+  .copyright {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    width: 105vw;
+  }
+  
+  .copyright p {
+    width: 420px;
+    font: Regular 13px/24px Objektiv Mk3;
+    letter-spacing: -0.26px;
+    color: #81818a;
+    opacity: 1;
+    margin-bottom: 0;
+  }
+  
+  .fim a {
+    margin-left: 8px;
+    text-decoration: none;
+    width: 140px;
+    letter-spacing: -0.26px;
+    color: #cacace;
+    opacity: 1;
   }
