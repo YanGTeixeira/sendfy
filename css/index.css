@@ -742,7 +742,7 @@ input[type='radio']:checked + label:after {
     padding: 10px 15px 10px 15px;
     border: none;
     background: transparent linear-gradient(101deg, #005dff 0%, #7958ef 100%) 0% 0% no-repeat padding-box;
-      font-family: Regular, Objektiv;
+    font-family: Regular, Objektiv;
   }
 
   .fim {
