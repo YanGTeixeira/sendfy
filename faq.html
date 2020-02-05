@@ -117,7 +117,7 @@
     </div>
 
     <div class="rodape">
-        <h1>Contato</h1>
+        <a class="titulo-rodape-contato"><b>Contato</b></a>
         <form>
             <div class="nome input">
             <label>nome:*</label><input type="text" placeholder="Fulano de Tal da Flex"/>
@@ -126,7 +126,13 @@
             <label>email:*</label><input type="text" placeholder="Fulano.apelido@flexcontact.com.br">
             </div>
             <div class="input">
-            <label>telefone:*</label><input class="input-tel" type="text" placeholder="+55 48 9 99999999"><input type="radio" class="radio"><label class="meligue">quero que me ligue</label>
+            <label>telefone:*</label><input class="input-tel" type="text" placeholder="+55 48 9 99999999">
+            <!-- <input type="checkbox" class="checkbox"><label class="meligue">quero que me ligue</label> -->
+                <div class="round">
+                  <input type="checkbox" id="checkbox" />
+                  <label for="checkbox"></label>
+                </div>
+                <label class="meligue">quero que me ligue</label>
             </div>
             <div class="input">
             <label>empresa:*</label><input class="empresa" type="text" placeholder="Flex Contact Center Relacionamentos Inteligentes inc. LTDA."/>
@@ -138,7 +144,12 @@
                 <h1>Já trabalha com envio ilimitado de mensagens:*</h1>
             </div>
             <div class="sim-nao">
-                <label>sim</label><input class="input-sim" type="radio"/><label class="label-nao">não</label><input type="radio"/>
+                <label>Sim</label>
+                    <input type="radio" name="mensagens" id="checkbox2" />
+                    <label for="radio" class="radio-mensagens"></label>
+                <label>Não</label>
+                    <input type="radio" name="mensagens" id="checkbox3" />
+                    <label for="radio" class="radio-mensagens1"></label>
             </div>
 
             <div class="interacoes">
@@ -147,26 +158,34 @@
 
             <div class="radiobox-interacoes">
                 <div class="radiobox">
-                <label>0 - 500</label><input type="radio"/>
+                    <label class="texto-radio">0 - 500</label>
+                    <input name="interacoes" type="radio"/>
+                    <label for="radio" class="radio-interacoes"></label>
                 </div>
                 <div class="radiobox">
-                <label>500 - 2mil</label><input type="radio"/>
+                    <label class="texto-radio">500 - 2mil</label>
+                    <input name="interacoes" type="radio"/>
+                    <label for="radio" class="radio-interacoes"></label>
                 </div>
                 <div class="radiobox">
-                <label>2mil - 5mil</label><input type="radio"/>
+                    <label class="texto-radio">2mil - 5mil</label>
+                    <input name="interacoes" type="radio"/>
+                    <label for="radio" class="radio-interacoes"></label>
                 </div>
                 <div class="radiobox">
-                <label>5mil - 20mil</label><input type="radio"/>
+                    <label class="texto-radio">5mil - 20mil</label>
+                    <input name="interacoes" type="radio"/>
+                    <label for="radio" class="radio-interacoes"></label>
                 </div>
                 <div class="radiobox">
-                <label>+20mil</label><input type="radio"/>
+                    <label class="texto-radio">+20mil</label>
+                    <input name="interacoes" type="radio"/>
+                    <label for="radio" class="radio-interacoes"></label>
                 </div>
             </div>
-
             <button class="botao-enviar">enviar</button>
         </form>
     </div>
-
     <div class="fim">
         <div class="conteudo">
             <div class="conteudo-esquerdo">
@@ -179,13 +198,18 @@
             <br/><br/>
             <p>Conheça outros produtos:</p>
             <br/>
-            <img class="zaas" src="./imgs/zaas.svg"><img class="arch produtos" src="./imgs/arch.svg"><img class="mzq produtos" src="./imgs/mzk.svg"><img class="crm produtos" src="./imgs/crm.svg"><img class="ds produtos" src="./imgs/ds.svg">
+            <div class="icons">
+                <div class="zaas"></div> 
+                <div class="arch"></div>
+                <div class="mzk"></div>
+                <div class="crm"></div>
+                <div class="ds"></div>
+            </div>
             </div>
         </div>
         <div class="copyright">
         <p>Sendfy Platform - Copyright 2020 <a href="#">Política de Privaciade</a></p>
         </div>
     </div>
-
 </body>
 </html>
