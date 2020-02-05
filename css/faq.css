@@ -1,3 +1,8 @@
+@font-face { 
+  font-family: 'Objektiv';
+  src: url('../fonts/Objektiv Mk3 W03 Regular/Objektiv Mk3 W03 Regular.ttf');
+}
+
 body {
   margin: 0;
   height: 2000px;
@@ -18,6 +23,9 @@ body {
 .cabecalho h1 {
   text-align: center;
   margin-top: 10%;
+  font-family: 'Objektiv';
+  font-size: 40px;
+  font-weight: bold;
 }
 
 .cabecalho-rolagem {
@@ -47,7 +55,7 @@ body {
 .botao-criar-conta {
   position: absolute;
   left: 67%;
-  top: 11%;
+  top: 17%;
   border-radius: 20px;
   width: 120px;
   height: 30px;
@@ -99,16 +107,53 @@ body {
   height: 42px;
 }
 
-.botao-buscar {
+.Busca {
+  display: flex;
+  margin-left: 30px;
+}
+
+.Busca input {
   background: #ffffff00 0% 0% no-repeat padding-box;
   border: 1px solid #2e2e3d;
-  border-radius: 20px;
+  border-radius: 0 20px 20px 0;
+  border-left: none;
   opacity: 1;
-  top: 425px;
-  left: 669px;
-  width: 582px;
-  height: 35px;
+  width: 405px;
+  height: 21px;
   text-align: left;
+  margin-left: 36%;
+}
+
+.Busca input {
+  font-size: 15px;
+  color: #2e2e3d;
+}
+
+.Busca input:focus {
+  outline: none;
+}
+
+.Busca-Input::-webkit-input-placeholder {
+  font-size: 15px;
+  color: #2e2e3d;
+}
+
+.icone-busca {
+  position: absolute;
+  z-index: 999;
+  background: #ffffff00 0% 0% no-repeat padding-box;
+  border: 1px solid #2e2e3d;
+  border-radius: 20px 0 0 20px;
+  border-right: none;
+  opacity: 1;
+  width: 40px;
+  height: 23px;
+  margin-left: 240px;
+}
+
+.icone {
+  margin-left: 10px;
+  margin-top: 4px;
 }
 
 .textos h4 {
@@ -121,6 +166,7 @@ body {
   letter-spacing: 0;
   color: #005dff;
   margin-top: 30px;
+  font-family: Medium, Objektiv;
 }
 
 .primeiro {
@@ -174,7 +220,7 @@ body {
   width: 58px;
   height: 18px;
   text-align: left;
-  font: Regular 17px/24px Objektiv Mk3;
+  font: 'Regular', 'Objektiv';
   letter-spacing: -0.34px;
   color: #005dff;
   opacity: 1;
@@ -187,7 +233,7 @@ body {
   height: 18px;
   width: 200px;
   text-align: left;
-  font: Regular 17px/24px Objektiv Mk3;
+  font: 'Regular', 'Objektiv Mk3';
   letter-spacing: -0.34px;
   color: #a9a9b4;
   opacity: 1;
@@ -227,7 +273,7 @@ body {
 
 .envio-mensagem h1 {
   text-align: left;
-  font: Bold 17px/24px Objektiv Mk3;
+  font: Bold, 'Objektiv';
   letter-spacing: -0.34px;
   color: #005dff;
   opacity: 1;
@@ -235,7 +281,7 @@ body {
 
 .interacoes h1 {
   margin-top: 30px;
-  font: Bold 17px/24px Objektiv Mk3;
+  font: Bold, 'Objektiv';
   letter-spacing: -0.34px;
   color: #005dff;
   opacity: 1;
@@ -245,7 +291,7 @@ body {
 
 .sim-nao {
   margin-left: -470px;
-  font: Regular 17px/24px Objektiv Mk3;
+  font: 'Regular', 'Objektiv';
   letter-spacing: -0.34px;
   color: #005dff;
   opacity: 1;
@@ -316,7 +362,7 @@ body {
 }
 
 .conteudo-esquerdo h5 {
-  font: Regular 18px/24px Objektiv Mk3;
+  font: 'Regular', 'Objektiv';
   letter-spacing: -0.36px;
   color: #81818a;
   opacity: 1;
@@ -334,7 +380,7 @@ body {
 
 .conteudo-direito p {
   text-align: left;
-  font: Regular 18px/24px Objektiv Mk3;
+  font: 'Regular', 'Objektiv';
   letter-spacing: -0.36px;
   color: #81818a;
   opacity: 1;
@@ -353,7 +399,7 @@ body {
 
 .copyright p {
   width: 420px;
-  font: Regular 13px/24px Objektiv Mk3;
+  font: 'Regular', 'Objektiv';
   letter-spacing: -0.26px;
   color: #81818a;
   opacity: 1;
@@ -367,4 +413,141 @@ body {
   letter-spacing: -0.26px;
   color: #cacace;
   opacity: 1;
+}
+
+
+@media(max-width: 1420px) {
+
+  .icone-busca {
+    margin-left: 220px;
+  }
+
+}
+
+@media(max-width: 1380px) {
+
+  .icone-busca {
+    margin-left: 204px;
+  }
+
+}
+
+@media(max-width: 1305px) {
+
+  .icone-busca {
+    margin-left: 180px;
+  }
+
+}
+
+@media(max-width: 1232px) {
+
+  .icone-busca {
+    margin-left: 160px;
+  }
+
+}
+
+@media(max-width: 1223px) {
+
+  .icone-busca {
+    margin-left: 150px;
+  }
+
+}
+
+@media(max-width: 1165px) {
+
+  .login {
+    margin-left: 20px;
+  }
+
+}
+
+@media(max-width: 1139px) {
+
+  .icone-busca {
+    margin-left: 120px;
+  }
+
+}
+
+@media(max-width: 1150px) {
+
+  .icone-busca {
+    margin-left: 122px;
+  }
+
+}
+
+@media(max-width: 1090px) {
+
+  .icone-busca {
+    margin-left: 102px;
+  }
+
+}
+
+@media(max-width: 1084px) {
+
+  .icone-busca {
+    margin-left: 100px;
+  }
+
+}
+
+@media(max-width: 1072px) {
+
+  .icone-busca {
+    margin-left: 94px;
+  }
+
+}
+
+@media(max-width: 1064px) {
+
+  .icone-busca {
+    margin-left: 92px;
+  }
+
+}
+
+@media(max-width: 1014px) {
+
+  .icone-busca {
+    margin-left: 72px;
+  }
+
+}
+
+@media(max-width: 999px) {
+
+  .icone-busca {
+    margin-left: 70px;
+  }
+
+}
+
+@media(max-width: 992px) {
+
+  .icone-busca {
+    margin-left: 70px;
+  }
+
+}
+
+@media(max-width: 982px) {
+
+  .icone-busca {
+    margin-left: 70px;
+  }
+
+}
+
+@media(max-width: 973px) {
+
+  .login {
+    margin-left: 30px;
+  }
+
 }
