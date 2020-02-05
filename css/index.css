@@ -91,6 +91,7 @@ body{
     position: absolute;
     left: 78%;
     top: 9%;
+    z-index: 1;
 }
 
 .botao-criar-conta {
@@ -153,7 +154,8 @@ body{
     margin-right: 30px;
     letter-spacing: 0;
     color: #FFFFFF;
-    opacity: 1; 
+    opacity: 1;
+    text-decoration: none;
 }
 .funcionalidades{
     position: absolute;
@@ -214,7 +216,7 @@ body{
     font-size: 18px;
 }
 
-.funcionalidades-esquerda{
+.esquerda{
     margin-right: 5%;
 }
 
@@ -223,8 +225,12 @@ body{
 }
 
 .borda{
-    top: 260px;
-    left: 686px;
+    position: absolute;
+    top: 420px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* align-items: center */
     width: 142px;
     height: 4px;
     background: #7F7DA1 0% 0% no-repeat padding-box;
@@ -234,8 +240,12 @@ body{
 }
 
 .borda-2{
-    top: 620px;
-    left: 686px;
+    position: absolute;
+    top: 760px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* align-items: center */
     width: 142px;
     height: 4px;
     background: #7F7DA1 0% 0% no-repeat padding-box;
@@ -245,8 +255,12 @@ body{
 }
 
 .borda-3{
-    top: 980px;
-    left: 686px;
+    position: absolute;
+    top: 1130px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* align-items: center */
     width: 142px;
     height: 4px;
     background: #7F7DA1 0% 0% no-repeat padding-box;
@@ -268,15 +282,48 @@ body{
 }
 
 .veja{
+    background: #2E2E3D 0% 0% no-repeat padding-box;
     position: absolute;
     top: 1980px;
-    background: #2E2E3D 0% 0% no-repeat padding-box;
-    opacity: 1;
+    width: 100vw;
+    height: 1150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* align-items: center */
+}
+
+.div-veja-1{
+    position: absolute;
+    top: 150px;
     width: 100vw;
     height: 100vh;
     display: flex;
     flex-direction: row;
     justify-content: center;
+    /* align-items: center */
+}
+
+.div-veja-2{
+    position: absolute;
+    top: 480px;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* align-items: center */
+}
+
+.div-veja-3{
+    position: absolute;
+    top: 820px;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* align-items: center */
 }
 
 .titulo-veja{
@@ -285,6 +332,319 @@ body{
     margin-top: 3%;
 }
 
-.veja-textos{
-    
+.texto-veja{
+    width: 347px;
+    font-size: 30px;
+    position: relative;
+    text-align: right;
+    font: Bold 30px/35px Objektiv Mk3;
+    letter-spacing: -0.9px;
+    color: #F3F4F9;
+    opacity: 1;
+    top: 75px;
+    margin-right: 5%;
 }
+
+.video-veja{
+    width: 477px;
+    height: 270px;
+    border-radius: 15px;
+    opacity: 1;
+}
+
+.barra {
+    border: 1px solid #585863;
+    opacity: 1;
+    position: absolute;
+    top: 300px;
+    width: 1000px;
+    height: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.principais-casos{
+    top: 3130px;
+    left: 0px;
+    height: 478px;
+    background: #F3F4F9 0% 0% no-repeat padding-box;
+    opacity: 1;
+    position: absolute;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* align-items: center */
+}
+
+.titulo-casos {
+    width: 347px;
+    height: 32px;
+    font-size: 30px;
+    position: absolute;
+    text-align: center;
+    font: Bold 30px/35px Objektiv Mk3;
+    letter-spacing: -0.9px;
+    color: #2E2E3D;
+    opacity: 1;
+}
+
+.casos-1{
+    position: relative;
+    top: 100px;
+    width: 315px;
+    height: 264px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 4px 4px 19px #005DFF33;
+    border-radius: 15px;
+    opacity: 1;
+    margin-left: 1px;
+}
+.casos-2{
+    position: relative;
+    top: 100px;
+    width: 315px;
+    height: 264px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 4px 4px 19px #005DFF33;
+    border-radius: 15px;
+    opacity: 1;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.casos-3{
+    position: relative;
+    top: 100px;
+    width: 315px;
+    height: 264px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 4px 4px 19px #005DFF33;
+    border-radius: 15px;
+    opacity: 1;
+}
+
+.titulo-caso{
+    width: 254px;
+    height: 93px;
+    text-align: left;
+    font: Bold 24px/29px Objektiv Mk3;
+    letter-spacing: -0.48px;
+    color: #005DFF;
+    opacity: 1;
+    margin-left: 25px;
+}
+
+.barra-casos{
+    position: relative;
+    top: 20px;
+    margin-left: 25px;
+    width: 70px;
+    height: 2px;
+    background: #717082 0% 0% no-repeat padding-box;
+    opacity: 1;
+    z-index: 1;
+}
+
+.texto-casos {
+    text-align: left;
+    font: Regular 17px/24px Objektiv Mk3;
+    letter-spacing: -0.34px;
+    color: #717082;
+    opacity: 1;
+    margin-left: 23px;
+    margin-right: 70px;
+    margin-top: 37px;
+    font-size: 15px;
+}
+
+.rodape{
+    top: 3607px;
+    left: 0px;
+    height: 478px;
+    background: transparent linear-gradient(106deg, #005DFF 0%, #9958EF 100%) 0% 0% no-repeat padding-box;
+    opacity: 1;
+    position: absolute;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* align-items: center */
+}
+
+.titulo-rodape{
+    width: 347px;
+    height: 32px;
+    font-size: 30px;
+    position: absolute;
+    text-align: center;
+    font: Bold 30px/35px Objektiv Mk3;
+    letter-spacing: -0.9px;
+    color: #2E2E3D;
+    opacity: 1;
+}
+
+.rodape {
+    top: 3530px;
+    left: 0px;
+    width: 100%;
+    height: 685px;
+    background: transparent linear-gradient(106deg, #005dff 0%, #9958ef 100%) 0% 0% no-repeat padding-box;
+    opacity: 1;
+    text-align: center;
+    margin-top: 80px;
+  }
+
+  .titulo-rodape-contato{
+    height: 38px;
+    font-size: 70px;
+    position: absolute;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: #FFFFFF;
+    font-size: 45px;
+    margin-top: 16px;
+  }
+  
+  .rodape form {
+    width: 630px;
+    height: 451px;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    border-radius: 15px;
+    opacity: 1;
+    margin: auto;
+    padding-top: 35px;
+  }
+  
+  .input {
+    text-align: left;
+    border-bottom: solid 1px #a9a9b4;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+  }
+  
+  .input label {
+    top: 2380px;
+    left: 665px;
+    width: 58px;
+    height: 18px;
+    text-align: left;
+    font: Regular 17px/24px Objektiv Mk3;
+    letter-spacing: -0.34px;
+    color: #005dff;
+    opacity: 1;
+    font-size: 15px;
+  }
+  
+  .input input {
+    top: 2380px;
+    left: 728px;
+    height: 18px;
+    width: 200px;
+    text-align: left;
+    font: Regular 17px/24px Objektiv Mk3;
+    letter-spacing: -0.34px;
+    color: #a9a9b4;
+    opacity: 1;
+    border: none;
+    margin-left: 10px;
+    font-size: 15px;
+  }
+  
+  .input-tel {
+    width: 130px !important;
+  }
+  
+  .meligue {
+    margin-left: -88px !important;
+  }
+  
+  .radio {
+    margin-left: -90px !important;
+  }
+  
+  .empresa {
+    width: 500px !important;
+  }
+  
+  .risco {
+    margin-top: 30px;
+    margin-left: 20px;
+    width: 60px;
+    height: 3px;
+    background: #717082 0% 0% no-repeat padding-box;
+    opacity: 1;
+  }
+  
+  
+.envio-mensagem {
+    margin-left: 20px;
+  }
+  
+  .envio-mensagem h1 {
+    text-align: left;
+    font: Bold 17px/24px Objektiv Mk3;
+    letter-spacing: -0.34px;
+    color: #005dff;
+    opacity: 1;
+  }
+  
+  .interacoes h1 {
+    margin-top: 30px;
+    font: Bold 17px/24px Objektiv Mk3;
+    letter-spacing: -0.34px;
+    color: #005dff;
+    opacity: 1;
+    width: 332px;
+    height: 18px;
+  }
+  
+  .sim-nao {
+    margin-left: -470px;
+    font: Regular 17px/24px Objektiv Mk3;
+    letter-spacing: -0.34px;
+    color: #005dff;
+    opacity: 1;
+    font-size: 20px !important;
+  }
+  
+  .label-nao {
+    margin-left: 20px;
+  }
+  
+  .radiobox-interacoes {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .radiobox {
+    top: 2677px;
+    left: 665px;
+    width: 110px;
+    height: 30px;
+    border: 1px solid #7f7da1;
+    border-radius: 15px;
+    opacity: 1;
+    margin-right: 5px;
+    letter-spacing: -0.34px;
+    color: #005dff;
+    opacity: 1;
+    font-size: 18px;
+    padding-top: 7px;
+    padding-left: 8px;
+  }
+  
+  .botao-enviar {
+    margin-top: 7px;
+    border-radius: 25px;
+    font-size: 15px;
+    color: white;
+    padding: 10px 15px 10px 15px;
+    border: none;
+    background: transparent linear-gradient(101deg, #005dff 0%, #7958ef 100%) 0%
+      0% no-repeat padding-box;
+  }
