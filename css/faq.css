@@ -124,7 +124,7 @@ body p{
   border-radius: 0 20px 20px 0;
   border-left: none;
   opacity: 1;
-  width: 405px;
+  width: 530px;
   height: 21px;
   text-align: left;
   margin-left: 96%;
@@ -155,7 +155,7 @@ body p{
   opacity: 1;
   width: 40px;
   height: 23px;
-  margin-left: 240px;
+  left: 29%;
   margin-top: -30px;
 }
 
@@ -625,4 +625,32 @@ input[type='radio']:checked + label:after {
 .icons{
     display: flex;
     
+}
+
+@media(max-width: 768px){
+  .logo_sendfy_rolagem {
+    left: 35px;
+  }
+
+  .menu-rolagem-div {
+    left: 78%;
+  }
+
+  .menu-rolagem {
+    left: 61%;
+  }
+
+  .cabecalho h1 {
+    margin-top: 15%;
+  }
+
+  .main {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .icone-busca {
+    left: 12%;
+  }
+
 }

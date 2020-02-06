@@ -919,3 +919,167 @@ input[type='radio']:checked + label:after {
       display: flex;
       
   }
+
+@media(max-width: 768px){
+  body {
+    overflow-x: hidden !important;
+  }
+
+    .cabecalho{
+      width: 140%;
+    }
+
+    .cabecalho:after {
+      bottom: -98px;
+      left: 61%;
+      -webkit-transform: rotate(-10deg);
+  }
+
+  .logo_sendfy{
+    left: 96px;
+    width: 140px;
+  }
+
+  .botao-criar-conta {
+    left: 47%;
+  }
+
+  .menu-cabecalho {
+    left: 61%;
+  }
+
+  .texto-cabecalho-1{
+    top: 123px;
+    left: 94px;
+  }
+
+  .botoes-cabecalho {
+    top: 262px;
+    left: 93px;
+  }
+
+  .ilustra_topo{
+    top: -8px;
+    left: 45%;
+    width: 294px;
+  }
+
+  .posicionamento-texto {
+    width: 364px;
+    position: relative;
+    top: -25px;
+  }
+
+  .titulo-funcionalidade {
+    position: relative;
+    top: -15px;
+  }
+
+  .esquerda {
+    margin-left: 16px;
+  }
+
+  .logo_sendfy_rolagem {
+    left: 35px;
+  }
+
+  .menu-rolagem-div{
+    left: 82%;
+  }
+
+  .menu-rolagem{
+    left: 64%;
+    margin-top: 6px;
+  }
+
+  .borda {
+    top: 424px;
+    width: 200px;
+  }
+
+  .borda-2 {
+    top: 760px;
+    width: 200px;
+  }
+
+  .borda-3 {
+    top: 1100px;
+    width: 200px;
+  }
+
+  .img-1{
+    position: relative;
+    top: -136px;
+  }
+
+  .img-2{
+    position: relative;
+    top: -136px;
+  }
+
+  .img-3{
+    position: relative;
+    top: -270px;
+  }
+
+  .titulo-mobile{
+    position: relative;
+    top: -160px;
+  }
+
+  .texto-mobile{
+    position: relative;
+    top: -169px;
+  }
+
+  .botao-acesse-agora-funcionalidades {
+    top: 1275px;
+  }
+
+  .texto-veja {
+    top: -7px;
+    left: -38px;
+  }
+
+  .video-veja {
+    position: relative;
+    right: 28px;
+  }
+
+  .casos-1{
+      width: 230px;
+  }
+
+  .casos-2{
+    width: 230px;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+
+  .casos-3{
+    width: 230px;
+  }
+
+  .titulo-caso {
+    width: 200px;
+    font-size: 17px;
+  }
+
+  .texto-casos {
+    margin-top: 24px;
+    font-size: 13px;
+  }
+
+  .barra-casos {
+    top: 14px;
+  }
+
+}
+
+@media(max-width: 425px){
+  .cabecalho-rolagem{
+    display: none;
+  }
+
+
+}
