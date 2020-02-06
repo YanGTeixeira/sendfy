@@ -91,6 +91,7 @@ body{
 
 .ilimitada{
     background: #005DFF 0% 0% no-repeat padding-box;
+    font-weight: bold;
 }
 
 .menu-cabecalho{
@@ -185,10 +186,12 @@ body{
     letter-spacing: -1.35px;
     color: #005DFF;
     opacity: 1;
+    position: relative;
+    left: 41%;
 }
 
 .div-funcionalidades{
-    position: absolute;
+    position: relative;
     top: 150px;
     width: 100vw;
     height: 100vh;
@@ -225,8 +228,16 @@ body{
     font-size: 18px;
 }
 
-.esquerda{
-    margin-right: 5%;
+.esquerda {
+  margin-right: 5%;
+  position: absolute;
+  right: 56%;
+}
+
+.direita{
+  position: absolute;
+    top: -12px;
+    right: 179px;
 }
 
 .posicionamento-texto{
@@ -240,12 +251,13 @@ body{
     flex-direction: row;
     justify-content: center;
     /* align-items: center */
-    width: 142px;
+    width: 242px;
     height: 4px;
     background: #7F7DA1 0% 0% no-repeat padding-box;
     border-radius: 2px;
     opacity: 0.3;
     position: absolute;
+    left: 613px;
 }
 
 .borda-2{
@@ -255,12 +267,13 @@ body{
     flex-direction: row;
     justify-content: center;
     /* align-items: center */
-    width: 142px;
+    width: 242px;
     height: 4px;
     background: #7F7DA1 0% 0% no-repeat padding-box;
     border-radius: 2px;
     opacity: 0.3;
     position: absolute;
+    left: 613px;
 }
 
 .borda-3{
@@ -270,25 +283,28 @@ body{
     flex-direction: row;
     justify-content: center;
     /* align-items: center */
-    width: 142px;
+    width: 242px;
     height: 4px;
     background: #7F7DA1 0% 0% no-repeat padding-box;
     border-radius: 2px;
     opacity: 0.3;
     position: absolute;
+    left: 613px;
 }
 
-.botao-acesse-agora-funcionalidades{
-    position: absolute;
-    top: 1317px;
-    width: 210px;
-    height: 40px;
-    background: transparent linear-gradient(94deg, #005DFF 0%, #7958EF 100%) 0% 0% no-repeat padding-box;
-    border-radius: 25px;
-    border-color: transparent;
-    color: #FFFFFF;
-    opacity: 1;
-    font-family: Regular, Objektiv;
+.botao-acesse-agora-funcionalidades {
+  position: absolute;
+  top: 1317px;
+  width: 210px;
+  height: 40px;
+  background: transparent linear-gradient(94deg, #005DFF 0%, #7958EF 100%) 0% 0% no-repeat padding-box;
+  border-radius: 25px;
+  border-color: transparent;
+  color: #FFFFFF;
+  opacity: 1;
+  font-family: Regular, Objektiv;
+  position: absolute;
+  left: 320px;
 }
 
 .veja{
@@ -340,6 +356,11 @@ body{
     color: #F6F6F9;
     font-size: 30px;
     margin-top: 3%;
+}
+
+.asset8{
+  position: relative;
+  top: -42px;
 }
 
 .texto-veja{
@@ -1077,9 +1098,243 @@ input[type='radio']:checked + label:after {
 }
 
 @media(max-width: 425px){
+  .cabecalho {
+    left: -254px;
+    width: 200%;
+  }
+  .cabecalho:after {
+    bottom: -64px;
+    left: 66%;
+  }
+  .logo_sendfy {
+    left: 272px;
+    top: 15px;
+  }
   .cabecalho-rolagem{
     display: none;
   }
+  .menu-cabecalho{
+    display: none;
+  }
 
+  .ilustra_topo {
+    top: 92px;
+    left: 50%;
+    width: 255px;
+  }
+
+  .texto-cabecalho-1 {
+    top: 90px;
+    left: 271px;
+  }
+
+  .botao-criar-conta {
+    left: 64%;
+    top: 21px;
+  }
+
+  .botoes-cabecalho {
+    top: 343px;
+    left: 348px;
+    width: 70px;
+  }
+
+  .ou{
+    display: none;
+  }
+
+  .botao-acesse-agora {
+    width: 204px;
+    margin-bottom: 5px;
+    margin-top: -5px;
+  }
+
+  .botao-falar-com {
+    width: 204px;
+  }
+
+  .asset10{
+    position: absolute;
+    left: 41px;
+  }
+
+  .titulo-asset10{
+    position: absolute;
+    top: 186px;
+    left: 46px;
+    font-size: 23px;
+    width: 338px;
+  }
+
+  .texto-asset10{
+    position: absolute;
+    left: 46px;
+    top: 218px;
+    font-size: 14px;
+  }
+
+  .borda {
+    top: 456px;
+    width: 90%;
+    left: 20px;
+  }
+
+  .asset9 {
+    position: absolute;
+    left: 41px;
+    top: 327px;
+  }
+
+  .titulo-asset9 {
+    position: absolute;
+    top: 503px;
+    left: 46px;
+    font-size: 23px;
+    width: 338px;
+  }
+
+  .texto-asset9{
+    position: absolute;
+    left: 46px;
+    top: 575px;
+    font-size: 14px;
+  }
+
+  .borda-2 {
+    top: 812px;
+    width: 90%;
+    left: 20px;
+  }
+
+  .asset8 {
+    position: absolute;
+    left: 41px;
+    top: 669px;
+  }
+
+  .titulo-asset8 {
+    position: absolute;
+    top: 863px;
+    left: 46px;
+    font-size: 23px;
+    width: 338px;
+  }
+
+  .texto-asset8{
+    position: absolute;
+    left: 46px;
+    top: 935px;
+    font-size: 14px;
+  }
+
+  .borda-3 {
+    top: 1174px;
+    width: 90%;
+    left: 20px;
+  }
+
+  .asset7 {
+    position: absolute;
+    left: 41px;
+    top: 1043px;
+  }
+
+  .titulo-asset7 {
+    position: absolute;
+    top: 1214px;
+    left: 46px;
+    font-size: 23px;
+    width: 338px;
+  }
+
+  .texto-asset7 {
+    position: absolute;
+    left: 46px;
+    top: 1280px;
+    font-size: 14px;
+  }
+
+  .funcionalidades {
+    position: absolute;
+    top: 419px;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* align-items: center; */
+  }
+
+  .botao-acesse-agora-funcionalidades {
+    top: 1361px;
+    position: absolute;
+    right: 106px;
+  }
+
+  .esquerda {
+    margin-right: 5%;
+    position: absolute;
+    right: 357%;
+  }
+  
+  .direita {
+    position: absolute;
+    right: 354%;
+  }
+
+  .titulo-funcionalidades {
+    left: 17%;
+  }
+
+
+  .texto-veja{
+    position: absolute;
+    top: -77px;
+    width: 433px;
+  }
+
+  .video-veja{
+    right: 0px;
+  }
+
+  .veja-2{
+    top: -40px;
+    left: -7px;
+    text-align: center;
+  }
+
+  .video-2{
+    top: 71px;
+  }
+
+  .fim {
+    top: 4360px;
+  }
+
+  .rodape {
+    top: 3595px;
+  }
+
+  .principais-casos {
+    top: 3200px;
+  }
+
+  .veja {
+    height: 1220px;
+  }
+
+  .video-3{
+    top: 120px;
+  }
+
+  .texto-veja-3{
+    top: 12px;
+    left: 0px;
+    text-align: center;
+  }
+
+  .barra-2{
+    top: 367px;
+  }
 
 }
