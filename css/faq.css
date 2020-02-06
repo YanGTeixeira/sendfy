@@ -632,6 +632,11 @@ input[type='radio']:checked + label:after {
 }
 
 @media(max-width: 768px){
+
+  .botao-criar-conta, .menu-rolagem, .login, .faq{
+    display: none;
+  }
+
   .logo_sendfy_rolagem {
     left: 35px;
   }
@@ -660,6 +665,10 @@ input[type='radio']:checked + label:after {
 }
 
 @media (max-width: 425px){
+
+  .botao-criar-conta, .menu-rolagem, .login, .faq{
+    display: none;
+  }
 
 .cabecalho h1 {
     margin-top: 28%;
@@ -779,5 +788,96 @@ input[type='radio']:checked + label:after {
   height: 425px;
 }
 
+}
 
+@media (max-width: 375px){
+
+  .botao-criar-conta, .menu-rolagem, .login, .faq{
+    display: none;
+  }
+
+  .Busca input {
+    width: 256px;
+}
+
+.textos h4 {
+  width: 353px;
+}
+
+.rodape form {
+  width: 358px;
+}
+
+.fim a {
+  margin-left: -194px;
+}
+
+.copyright p {
+  margin-top: 55px;
+  margin-left: 85px;
+}
+
+.sim-nao {
+  margin-left: -199px;
+}
+
+}
+
+@media (max-width: 320px){
+  .botao-criar-conta, .menu-rolagem, .login, .faq{
+    display: none;
+  }
+
+  .cabecalho h1 {
+    margin-top: 43%;
+    font-size: 27px;
+}
+
+.Busca input {
+  width: 220px;
+}
+
+.textos h4 {
+  width: 302px;
+}
+
+.rodape form {
+  width: 303px;
+}
+
+.sim-nao {
+  margin-left: -144px;
+}
+
+.interacoes h1 {
+  margin-bottom: 35px;
+  width: 165px;
+  margin-left: 22px;
+}
+
+.copyright p {
+  margin-top: 55px;
+  margin-left: 49px;
+}
+
+}
+
+@media (max-width: 360px){
+  .botao-criar-conta, .menu-rolagem, .login, .faq{
+    display: none;
+  }
+
+  .cabecalho h1 {
+    margin-top: 39%;
+    font-size: 30px;
+}
+
+.textos h4 {
+  width: 337px;
+}
+
+.copyright p {
+  margin-top: 55px;
+  margin-left: 72px;
+}
 }
