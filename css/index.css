@@ -1,16 +1,16 @@
-@font-face { 
+    @font-face {
     font-family: 'Objektiv';
     src: url('../fonts/Objektiv Mk3 W03 Regular/Objektiv Mk3 W03 Regular.ttf');
-  }
+}
 
-body{
+body {
     margin: 0;
     height: 2000px;
     overflow-x: hidden;
     font-family: Regular, Objektiv;
 }
 
-.cabecalho{
+.cabecalho {
     top: 0px;
     left: -62px;
     width: 110%;
@@ -21,7 +21,8 @@ body{
     position: absolute;
     z-index: 2;
 }
-.cabecalho-rolagem{
+
+.cabecalho-rolagem {
     width: 100%;
     height: 50px;
     background: rgba(46, 46, 61, 0.8) no-repeat padding-box;
@@ -54,7 +55,7 @@ body{
     opacity: 1;
 }
 
-.logo_sendfy_rolagem{
+.logo_sendfy_rolagem {
     position: absolute;
     left: 249px;
     width: 130px;
@@ -89,12 +90,12 @@ body{
     opacity: 1;
 }
 
-.ilimitada{
+.ilimitada {
     background: #005DFF 0% 0% no-repeat padding-box;
     font-weight: bold;
 }
 
-.menu-cabecalho{
+.menu-cabecalho {
     position: absolute;
     left: 78%;
     top: 9%;
@@ -116,14 +117,14 @@ body{
     font-family: Regular, Objektiv;
 }
 
-.botoes-cabecalho{
+.botoes-cabecalho {
     position: absolute;
     top: 286px;
     left: 296px;
     color: #FFFFFF;
 }
 
-.botao-acesse-agora{
+.botao-acesse-agora {
     width: 210px;
     height: 40px;
     background: transparent linear-gradient(94deg, #005DFF 0%, #7958EF 100%) 0% 0% no-repeat padding-box;
@@ -134,7 +135,7 @@ body{
     font-family: Regular, Objektiv;
 }
 
-.botao-falar-com{
+.botao-falar-com {
     width: 210px;
     height: 40px;
     border: 2px solid #C0C0C5;
@@ -145,29 +146,30 @@ body{
     font-family: Regular, Objektiv;
 }
 
-.menu-rolagem{
+.menu-rolagem {
     margin-top: 4px;
 }
 
-.menu-rolagem-div{
+.menu-rolagem-div {
     margin-top: 8px;
 }
 
-.login{
+.login {
     margin-right: 30px;
     letter-spacing: 0;
     color: #FFFFFF;
     opacity: 1;
 }
 
-.faq{
+.faq {
     margin-right: 30px;
     letter-spacing: 0;
     color: #FFFFFF;
     opacity: 1;
     text-decoration: none;
 }
-.funcionalidades{
+
+.funcionalidades {
     position: absolute;
     top: 450px;
     width: 100vw;
@@ -177,7 +179,8 @@ body{
     justify-content: center;
     /* align-items: center */
 }
-.titulo-funcionalidades{
+
+.titulo-funcionalidades {
     width: 356px;
     height: 47px;
     font-size: 41px;
@@ -190,7 +193,7 @@ body{
     left: 41%;
 }
 
-.div-funcionalidades{
+.div-funcionalidades {
     position: relative;
     top: 150px;
     width: 100vw;
@@ -201,7 +204,7 @@ body{
     /* align-items: center */
 }
 
-.img-funcionalidade{
+.img-funcionalidade {
     width: 380px;
     height: 208px;
     margin-right: 5%;
@@ -209,7 +212,7 @@ body{
     margin-bottom: 120px;
 }
 
-.titulo-funcionalidade{
+.titulo-funcionalidade {
     text-align: left;
     /* font-family: Medium, Objektiv; */
     letter-spacing: 0;
@@ -219,7 +222,7 @@ body{
     font-size: 30px;
 }
 
-.texto-funcionalidade{
+.texto-funcionalidade {
     text-align: left;
     /* font-family: Regular, Objektiv; */
     letter-spacing: 0;
@@ -229,22 +232,22 @@ body{
 }
 
 .esquerda {
-  margin-right: 5%;
-  position: absolute;
-  right: 56%;
+    margin-right: 5%;
+    position: absolute;
+    right: 56%;
 }
 
-.direita{
-  position: absolute;
+.direita {
+    position: absolute;
     top: -12px;
     right: 179px;
 }
 
-.posicionamento-texto{
+.posicionamento-texto {
     margin-bottom: 210px;
 }
 
-.borda{
+.borda {
     position: absolute;
     top: 420px;
     display: flex;
@@ -260,7 +263,7 @@ body{
     left: 613px;
 }
 
-.borda-2{
+.borda-2 {
     position: absolute;
     top: 760px;
     display: flex;
@@ -276,7 +279,7 @@ body{
     left: 613px;
 }
 
-.borda-3{
+.borda-3 {
     position: absolute;
     top: 1130px;
     display: flex;
@@ -293,21 +296,21 @@ body{
 }
 
 .botao-acesse-agora-funcionalidades {
-  position: absolute;
-  top: 1317px;
-  width: 210px;
-  height: 40px;
-  background: transparent linear-gradient(94deg, #005DFF 0%, #7958EF 100%) 0% 0% no-repeat padding-box;
-  border-radius: 25px;
-  border-color: transparent;
-  color: #FFFFFF;
-  opacity: 1;
-  font-family: Regular, Objektiv;
-  position: absolute;
-  left: 320px;
+    position: absolute;
+    top: 1317px;
+    width: 210px;
+    height: 40px;
+    background: transparent linear-gradient(94deg, #005DFF 0%, #7958EF 100%) 0% 0% no-repeat padding-box;
+    border-radius: 25px;
+    border-color: transparent;
+    color: #FFFFFF;
+    opacity: 1;
+    font-family: Regular, Objektiv;
+    position: absolute;
+    left: 320px;
 }
 
-.veja{
+.veja {
     background: #2E2E3D 0% 0% no-repeat padding-box;
     position: absolute;
     top: 1980px;
@@ -319,7 +322,7 @@ body{
     /* align-items: center */
 }
 
-.div-veja-1{
+.div-veja-1 {
     position: absolute;
     top: 150px;
     width: 100vw;
@@ -330,7 +333,7 @@ body{
     /* align-items: center */
 }
 
-.div-veja-2{
+.div-veja-2 {
     position: absolute;
     top: 480px;
     width: 100vw;
@@ -341,7 +344,7 @@ body{
     /* align-items: center */
 }
 
-.div-veja-3{
+.div-veja-3 {
     position: absolute;
     top: 820px;
     width: 100vw;
@@ -352,18 +355,18 @@ body{
     /* align-items: center */
 }
 
-.titulo-veja{
+.titulo-veja {
     color: #F6F6F9;
     font-size: 30px;
     margin-top: 3%;
 }
 
-.asset8{
-  position: relative;
-  top: -42px;
+.asset8 {
+    position: relative;
+    top: -42px;
 }
 
-.texto-veja{
+.texto-veja {
     width: 347px;
     font-size: 30px;
     position: relative;
@@ -376,7 +379,7 @@ body{
     margin-right: 5%;
 }
 
-.video-veja{
+.video-veja {
     box-shadow: 0px 0px 25px #0077FF80;
     border-radius: 15px;
 }
@@ -394,7 +397,7 @@ body{
     /* align-items: center; */
 }
 
-.principais-casos{
+.principais-casos {
     top: 3130px;
     left: 0px;
     height: 478px;
@@ -420,7 +423,7 @@ body{
     opacity: 1;
 }
 
-.casos-1{
+.casos-1 {
     position: relative;
     top: 100px;
     width: 315px;
@@ -431,7 +434,8 @@ body{
     opacity: 1;
     margin-left: 1px;
 }
-.casos-2{
+
+.casos-2 {
     position: relative;
     top: 100px;
     width: 315px;
@@ -443,7 +447,8 @@ body{
     margin-left: 50px;
     margin-right: 50px;
 }
-.casos-3{
+
+.casos-3 {
     position: relative;
     top: 100px;
     width: 315px;
@@ -467,7 +472,7 @@ body{
     margin-left: 25px;
 }
 
-.barra-casos{
+.barra-casos {
     position: relative;
     top: 20px;
     margin-left: 25px;
@@ -490,7 +495,7 @@ body{
     font-size: 15px;
 }
 
-.rodape{
+.rodape {
     top: 3607px;
     left: 0px;
     height: 478px;
@@ -504,7 +509,7 @@ body{
     /* align-items: center */
 }
 
-.titulo-rodape{
+.titulo-rodape {
     width: 347px;
     height: 32px;
     font-size: 30px;
@@ -525,9 +530,9 @@ body{
     opacity: 1;
     text-align: center;
     margin-top: 80px;
-  }
+}
 
-  .titulo-rodape-contato{
+.titulo-rodape-contato {
     height: 38px;
     font-size: 70px;
     position: absolute;
@@ -538,9 +543,9 @@ body{
     color: #FFFFFF;
     font-size: 45px;
     margin-top: 16px;
-  }
-  
-  .rodape form {
+}
+
+.rodape form {
     width: 630px;
     height: 451px;
     background: #ffffff 0% 0% no-repeat padding-box;
@@ -548,24 +553,24 @@ body{
     opacity: 1;
     margin: auto;
     padding-top: 35px;
-  }
-  
-  .input {
+}
+
+.input {
     text-align: left;
     border-bottom: solid 1px #a9a9b4;
     margin-left: 20px;
     margin-right: 20px;
     margin-top: 20px;
-  }
-  
-  .input label {
+}
+
+.input label {
     /* font: Regular 17px/24px Objektiv Mk3; */
     letter-spacing: -0.34px;
     color: #005dff;
     opacity: 1;
 }
-  
-  .input input {
+
+.input input {
     top: 2380px;
     left: 728px;
     height: 18px;
@@ -578,26 +583,26 @@ body{
     border: none;
     margin-left: 10px;
     font-size: 15px;
-  }
-  
-  .input-tel {
+}
+
+.input-tel {
     width: 137px !important;
-  }
-  
-  .meligue {
+}
+
+.meligue {
     margin-left: 40px !important;
-  }
-  
-  .checkbox {
+}
+
+.checkbox {
     margin-left: -90px !important;
     border-radius: 50%;
-  }
+}
 
-  .round {
+.round {
     position: absolute;
-  }
-  
-  .round label {
+}
+
+.round label {
     background-color: #fff;
     border: 1px solid #ccc;
     border-radius: 50%;
@@ -607,9 +612,9 @@ body{
     position: absolute;
     top: -21px;
     width: 18px;
-  }
-  
-  .round label:after {
+}
+
+.round label:after {
     border: 2px solid #fff;
     border-top: none;
     border-right: none;
@@ -621,23 +626,22 @@ body{
     top: 3px;
     transform: rotate(-45deg);
     width: 10px;
-  }
-  
-  .round input[type="checkbox"] {
+}
+
+.round input[type="checkbox"] {
     visibility: hidden;
-  }
-  
-  .round input[type="checkbox"]:checked + label {
+}
+
+.round input[type="checkbox"]:checked+label {
     background-color: #005dff;
     border-color: #005dff;
-  }
-  
-  .round input[type="checkbox"]:checked + label:after {
+}
+
+.round input[type="checkbox"]:checked+label:after {
     opacity: 1;
-  }
+}
 
-
-  input[type='radio']:after {
+input[type='radio']:after {
     width: 15px;
     height: 15px;
     border-radius: 15px;
@@ -651,7 +655,7 @@ body{
     border: 1px solid #d1d3d1;
 }
 
-input[type='radio']:checked + label:after {
+input[type='radio']:checked+label:after {
     width: 9px;
     height: 9px;
     border-radius: 15px;
@@ -664,53 +668,52 @@ input[type='radio']:checked + label:after {
     visibility: visible;
 }
 
-.radio-mensagens{
+.radio-mensagens {
     margin: 0px;
     position: absolute;
 }
 
-.radio-interacoes{
+.radio-interacoes {
     margin-left: 4px;
     position: absolute;
 }
 
-.radio-mensagens1{
+.radio-mensagens1 {
     position: absolute;
     margin-left: 4px;
 }
 
-  .texto-radio{
-      font-size: 12px;
-  }
-  
-  .empresa {
+.texto-radio {
+    font-size: 12px;
+}
+
+.empresa {
     width: 500px !important;
-  }
-  
-  .risco {
+}
+
+.risco {
     margin-top: 30px;
     margin-left: 20px;
     width: 60px;
     height: 3px;
     background: #717082 0% 0% no-repeat padding-box;
     opacity: 1;
-  }
-  
-  
+}
+
 .envio-mensagem {
     margin-left: 20px;
-  }
-  
-  .envio-mensagem h1 {
+}
+
+.envio-mensagem h1 {
     text-align: left;
     /* font: Bold 17px/24px Objektiv Mk3; */
     letter-spacing: -0.34px;
     color: #005dff;
     opacity: 1;
     font-size: 17px;
-  }
-  
-  .interacoes h1 {
+}
+
+.interacoes h1 {
     margin-top: 20px;
     margin-bottom: 25px;
     /* font: Bold 17px/24px Objektiv Mk3; */
@@ -719,10 +722,10 @@ input[type='radio']:checked + label:after {
     opacity: 1;
     width: 460px;
     height: 18px;
-    font-size: 17px; 
+    font-size: 17px;
     margin-left: -45px;
 }
-  
+
 .sim-nao {
     margin-left: -460px;
     letter-spacing: -0.34px;
@@ -730,17 +733,17 @@ input[type='radio']:checked + label:after {
     opacity: 1;
     font-size: 17px !important;
 }
-  
-  .label-nao {
+
+.label-nao {
     margin-left: 20px;
-  }
-  
-  .radiobox-interacoes {
+}
+
+.radiobox-interacoes {
     display: flex;
     justify-content: center;
-  }
-  
-  .radiobox {
+}
+
+.radiobox {
     top: 2677px;
     left: 665px;
     width: 107px;
@@ -754,8 +757,8 @@ input[type='radio']:checked + label:after {
     opacity: 1;
     font-size: 18px;
 }
-  
-  .botao-enviar {
+
+.botao-enviar {
     margin-top: 15px;
     border-radius: 25px;
     font-size: 15px;
@@ -764,9 +767,9 @@ input[type='radio']:checked + label:after {
     border: none;
     background: transparent linear-gradient(101deg, #005dff 0%, #7958ef 100%) 0% 0% no-repeat padding-box;
     font-family: Regular, Objektiv;
-  }
+}
 
-  .fim {
+.fim {
     position: relative;
     top: 4295px;
     left: 0px;
@@ -774,17 +777,16 @@ input[type='radio']:checked + label:after {
     height: 344px;
     background: #2e2e3d 0% 0% no-repeat padding-box;
     opacity: 1;
-    
-  }
-  
-  .meio {
+}
+
+.meio {
     border-right: solid 2px gray;
     width: 2px;
     height: 186px;
     margin-top: auto;
-  }
-  
-  .conteudo {
+}
+
+.conteudo {
     display: flex;
     opacity: 1;
     position: relative;
@@ -793,53 +795,53 @@ input[type='radio']:checked + label:after {
     flex-direction: row;
     justify-content: center;
     align-items: center
-  }
-  
-  .conteudo-esquerdo {
+}
+
+.conteudo-esquerdo {
     margin-top: 133px;
     width: 120px;
     padding-right: 50px;
-  }
-  
-  .conteudo-esquerdo h5 {
+}
+
+.conteudo-esquerdo h5 {
     /* font: Regular 18px/24px Objektiv Mk3; */
     letter-spacing: -0.36px;
     color: #81818a;
     opacity: 1;
     font-size: 15px;
-  }
-  
-  .conteudo-direito {
+}
+
+.conteudo-direito {
     margin-left: 40px;
     margin-top: 133px;
-  }
-  
-  .linkedin {
+}
+
+.linkedin {
     margin-left: 20px;
-  }
-  
-  .conteudo-direito p {
+}
+
+.conteudo-direito p {
     text-align: left;
     /* font: Regular 18px/24px Objektiv Mk3; */
     letter-spacing: -0.36px;
     color: #81818a;
     opacity: 1;
     margin: 0;
-  }
-  
-  .produtos {
+}
+
+.produtos {
     margin-left: 10px;
-  }
-  
-  .copyright {
+}
+
+.copyright {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 30px;
     width: 105vw;
-  }
-  
-  .copyright p {
+}
+
+.copyright p {
     width: 420px;
     /* font-family: Regular, Objektiv Mk3; */
     letter-spacing: -0.26px;
@@ -847,9 +849,9 @@ input[type='radio']:checked + label:after {
     opacity: 1;
     margin-bottom: 0;
     font-size: 15px;
-  }
-  
-  .fim a {
+}
+
+.fim a {
     margin-left: 8px;
     text-decoration: none;
     width: 140px;
@@ -857,484 +859,592 @@ input[type='radio']:checked + label:after {
     color: #cacace;
     opacity: 1;
     font-size: 15px;
-  }
+}
 
 
-  /* FIM DA PAGINA */
+/* FIM DA PAGINA */
 
-  .zaas{
+.zaas {
     background: url("../imgs/zaas.svg") no-repeat;
     position: relative;
     width: 35px;
     height: 35px;
-  }
+}
 
-  .zaas:hover {
+.zaas:hover {
     background: url("../imgs/zaas2.svg") no-repeat;
     position: relative;
     width: 35px;
     height: 35px;
-  }
+}
 
-  .arch{
+.arch {
     background: url("../imgs/arch.svg") no-repeat;
     position: relative;
     width: 35px;
     height: 35px;
     margin-left: 10px;
-  }
+}
 
-  .arch:hover {
+.arch:hover {
     background: url("../imgs/arch2.svg") no-repeat;
     position: relative;
     width: 35px;
     height: 35px;
-  }
+}
 
-  .mzk{
+.mzk {
     background: url("../imgs/mzk.svg") no-repeat;
     position: relative;
     width: 35px;
     height: 35px;
     margin-left: 10px;
-  }
+}
 
-  .mzk:hover {
+.mzk:hover {
     background: url("../imgs/mzk2.svg") no-repeat;
     position: relative;
     width: 35px;
     height: 35px;
-  }
+}
 
-  .crm{
+.crm {
     background: url("../imgs/crm.svg") no-repeat;
     position: relative;
     width: 35px;
     height: 35px;
     margin-left: 10px;
-  }
+}
 
-  .crm:hover {
+.crm:hover {
     background: url("../imgs/crm2.svg") no-repeat;
     position: relative;
     width: 35px;
     height: 35px;
-  }
+}
 
-  .ds{
+.ds {
     background: url("../imgs/ds.svg") no-repeat;
     position: relative;
     width: 35px;
     height: 35px;
     margin-left: 10px;
-  }
+}
 
-  .ds:hover {
+.ds:hover {
     background: url("../imgs/ds2.svg") no-repeat;
     position: relative;
     width: 35px;
     height: 35px;
-  }
-
-  .icons{
-      display: flex;
-      
-  }
-
-@media(max-width: 768px){
-  body {
-    overflow-x: hidden !important;
-  }
-
-    .cabecalho{
-      width: 140%;
-    }
-
-    .cabecalho:after {
-      bottom: -98px;
-      left: 61%;
-      -webkit-transform: rotate(-10deg);
-  }
-
-  .logo_sendfy{
-    left: 96px;
-    width: 140px;
-  }
-
-  .botao-criar-conta {
-    left: 47%;
-  }
-
-  .menu-cabecalho {
-    left: 61%;
-  }
-
-  .texto-cabecalho-1{
-    top: 123px;
-    left: 94px;
-  }
-
-  .botoes-cabecalho {
-    top: 262px;
-    left: 93px;
-  }
-
-  .ilustra_topo{
-    top: -8px;
-    left: 45%;
-    width: 294px;
-  }
-
-  .posicionamento-texto {
-    width: 364px;
-    position: relative;
-    top: -25px;
-  }
-
-  .titulo-funcionalidade {
-    position: relative;
-    top: -15px;
-  }
-
-  .esquerda {
-    margin-left: 16px;
-  }
-
-  .logo_sendfy_rolagem {
-    left: 35px;
-  }
-
-  .menu-rolagem-div{
-    left: 82%;
-  }
-
-  .menu-rolagem{
-    left: 64%;
-    margin-top: 6px;
-  }
-
-  .borda {
-    top: 424px;
-    width: 200px;
-  }
-
-  .borda-2 {
-    top: 760px;
-    width: 200px;
-  }
-
-  .borda-3 {
-    top: 1100px;
-    width: 200px;
-  }
-
-  .img-1{
-    position: relative;
-    top: -136px;
-  }
-
-  .img-2{
-    position: relative;
-    top: -136px;
-  }
-
-  .img-3{
-    position: relative;
-    top: -270px;
-  }
-
-  .titulo-mobile{
-    position: relative;
-    top: -160px;
-  }
-
-  .texto-mobile{
-    position: relative;
-    top: -169px;
-  }
-
-  .botao-acesse-agora-funcionalidades {
-    top: 1275px;
-  }
-
-  .texto-veja {
-    top: -7px;
-    left: -38px;
-  }
-
-  .video-veja {
-    position: relative;
-    right: 28px;
-  }
-
-  .casos-1{
-      width: 230px;
-  }
-
-  .casos-2{
-    width: 230px;
-    margin-left: 30px;
-    margin-right: 30px;
-  }
-
-  .casos-3{
-    width: 230px;
-  }
-
-  .titulo-caso {
-    width: 200px;
-    font-size: 17px;
-  }
-
-  .texto-casos {
-    margin-top: 24px;
-    font-size: 13px;
-  }
-
-  .barra-casos {
-    top: 14px;
-  }
-
 }
 
-@media(max-width: 425px){
-  .cabecalho {
-    left: -254px;
-    width: 200%;
-  }
-  .cabecalho:after {
-    bottom: -64px;
-    left: 66%;
-  }
-  .logo_sendfy {
-    left: 272px;
-    top: 15px;
-  }
-  .cabecalho-rolagem{
-    display: none;
-  }
-  .menu-cabecalho{
-    display: none;
-  }
-
-  .ilustra_topo {
-    top: 92px;
-    left: 50%;
-    width: 255px;
-  }
-
-  .texto-cabecalho-1 {
-    top: 90px;
-    left: 271px;
-  }
-
-  .botao-criar-conta {
-    left: 64%;
-    top: 21px;
-  }
-
-  .botoes-cabecalho {
-    top: 343px;
-    left: 348px;
-    width: 70px;
-  }
-
-  .ou{
-    display: none;
-  }
-
-  .botao-acesse-agora {
-    width: 204px;
-    margin-bottom: 5px;
-    margin-top: -5px;
-  }
-
-  .botao-falar-com {
-    width: 204px;
-  }
-
-  .asset10{
-    position: absolute;
-    left: 41px;
-  }
-
-  .titulo-asset10{
-    position: absolute;
-    top: 186px;
-    left: 46px;
-    font-size: 23px;
-    width: 338px;
-  }
-
-  .texto-asset10{
-    position: absolute;
-    left: 46px;
-    top: 218px;
-    font-size: 14px;
-  }
-
-  .borda {
-    top: 456px;
-    width: 90%;
-    left: 20px;
-  }
-
-  .asset9 {
-    position: absolute;
-    left: 41px;
-    top: 327px;
-  }
-
-  .titulo-asset9 {
-    position: absolute;
-    top: 503px;
-    left: 46px;
-    font-size: 23px;
-    width: 338px;
-  }
-
-  .texto-asset9{
-    position: absolute;
-    left: 46px;
-    top: 575px;
-    font-size: 14px;
-  }
-
-  .borda-2 {
-    top: 812px;
-    width: 90%;
-    left: 20px;
-  }
-
-  .asset8 {
-    position: absolute;
-    left: 41px;
-    top: 669px;
-  }
-
-  .titulo-asset8 {
-    position: absolute;
-    top: 863px;
-    left: 46px;
-    font-size: 23px;
-    width: 338px;
-  }
-
-  .texto-asset8{
-    position: absolute;
-    left: 46px;
-    top: 935px;
-    font-size: 14px;
-  }
-
-  .borda-3 {
-    top: 1174px;
-    width: 90%;
-    left: 20px;
-  }
-
-  .asset7 {
-    position: absolute;
-    left: 41px;
-    top: 1043px;
-  }
-
-  .titulo-asset7 {
-    position: absolute;
-    top: 1214px;
-    left: 46px;
-    font-size: 23px;
-    width: 338px;
-  }
-
-  .texto-asset7 {
-    position: absolute;
-    left: 46px;
-    top: 1280px;
-    font-size: 14px;
-  }
-
-  .funcionalidades {
-    position: absolute;
-    top: 419px;
-    width: 100vw;
-    height: 100vh;
+.icons {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    /* align-items: center; */
-  }
-
-  .botao-acesse-agora-funcionalidades {
-    top: 1361px;
-    position: absolute;
-    right: 106px;
-  }
-
-  .esquerda {
-    margin-right: 5%;
-    position: absolute;
-    right: 357%;
-  }
-  
-  .direita {
-    position: absolute;
-    right: 354%;
-  }
-
-  .titulo-funcionalidades {
-    left: 17%;
-  }
-
-
-  .texto-veja{
-    position: absolute;
-    top: -77px;
-    width: 433px;
-  }
-
-  .video-veja{
-    right: 0px;
-  }
-
-  .veja-2{
-    top: -40px;
-    left: -7px;
-    text-align: center;
-  }
-
-  .video-2{
-    top: 71px;
-  }
-
-  .fim {
-    top: 4360px;
-  }
-
-  .rodape {
-    top: 3595px;
-  }
-
-  .principais-casos {
-    top: 3200px;
-  }
-
-  .veja {
-    height: 1220px;
-  }
-
-  .video-3{
-    top: 120px;
-  }
-
-  .texto-veja-3{
-    top: 12px;
-    left: 0px;
-    text-align: center;
-  }
-
-  .barra-2{
-    top: 367px;
-  }
-
 }
+
+.hamburguer {
+    display: none;
+}
+
+.menu {
+    display: none;
+}
+
+@media(max-width: 768px) {
+    body {
+        overflow-x: hidden !important;
+    }
+    .cabecalho {
+        width: 140%;
+    }
+    .cabecalho:after {
+        bottom: -98px;
+        left: 61%;
+        -webkit-transform: rotate(-10deg);
+    }
+    .logo_sendfy {
+        left: 96px;
+        width: 140px;
+    }
+    .botao-criar-conta {
+        left: 47%;
+    }
+    .menu-cabecalho {
+        left: 61%;
+    }
+    .texto-cabecalho-1 {
+        top: 123px;
+        left: 94px;
+    }
+    .botoes-cabecalho {
+        top: 262px;
+        left: 93px;
+    }
+    .ilustra_topo {
+        top: -8px;
+        left: 45%;
+        width: 294px;
+    }
+    .posicionamento-texto {
+        width: 364px;
+        position: relative;
+        top: -25px;
+    }
+    .titulo-funcionalidade {
+        position: relative;
+        top: -15px;
+    }
+    .esquerda {
+        margin-left: 16px;
+    }
+    .logo_sendfy_rolagem {
+        left: 35px;
+    }
+    .menu-rolagem-div {
+        left: 82%;
+    }
+    .menu-rolagem {
+        left: 64%;
+        margin-top: 6px;
+    }
+    .borda {
+        top: 424px;
+        width: 200px;
+    }
+    .borda-2 {
+        top: 760px;
+        width: 200px;
+    }
+    .borda-3 {
+        top: 1100px;
+        width: 200px;
+    }
+    .img-1 {
+        position: relative;
+        top: -136px;
+    }
+    .img-2 {
+        position: relative;
+        top: -136px;
+    }
+    .img-3 {
+        position: relative;
+        top: -270px;
+    }
+    .titulo-mobile {
+        position: relative;
+        top: -160px;
+    }
+    .texto-mobile {
+        position: relative;
+        top: -169px;
+    }
+    .botao-acesse-agora-funcionalidades {
+        top: 1275px;
+    }
+    .texto-veja {
+        top: -7px;
+        left: -38px;
+    }
+    .video-veja {
+        position: relative;
+        right: 28px;
+    }
+    .casos-1 {
+        width: 230px;
+    }
+    .casos-2 {
+        width: 230px;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .casos-3 {
+        width: 230px;
+    }
+    .titulo-caso {
+        width: 200px;
+        font-size: 17px;
+    }
+    .texto-casos {
+        margin-top: 24px;
+        font-size: 13px;
+    }
+    .barra-casos {
+        top: 14px;
+    }
+}
+
+@media(max-width: 425px) {
+    .menu {
+        display: none;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 300px;
+        height: 555px;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        opacity: 1;
+    }
+    .menu-ativo{
+        z-index: 999;
+        overflow:hidden;
+        display: inline;
+    }
+    .menu-cabecalho-lateral {
+        position: relative;
+        top: 104px;
+        left: 23px;
+    }
+    .menu-cabecalho-lateral .login {
+        color: black;
+        position: absolute;
+        top: 25px;
+    }
+    .menu-cabecalho-lateral .faq {
+        color: black;
+    }
+    .menu .botao-criar-conta {
+        border-color: #2E2E3D;
+        color: #2E2E3D;
+        position: absolute;
+        left: 10px;
+        top: 65px;
+    }
+    .menu .logo_sendfy_rolagem {
+        left: 85px;
+        top: 14px;
+    }
+    .icons-menu {
+        position: relative;
+        top: 166px;
+        left: 12px;
+    }
+    .icons-menu .zaas {
+        position: absolute;
+    }
+    .icons-menu .arch {
+        position: absolute;
+        background: url("../imgs/arch2.svg") no-repeat;
+        left: 46px;
+    }
+    .icons-menu .mzk {
+        position: absolute;
+        background: url("../imgs/mzk2.svg") no-repeat;
+        left: 103px;
+    }
+    .icons-menu .crm {
+        position: absolute;
+        background: url("../imgs/crm2.svg") no-repeat;
+        left: 160px;
+    }
+    .icons-menu .ds {
+        position: absolute;
+        background: url("../imgs/ds2.svg") no-repeat;
+        left: 217px;
+    }
+    .barra-menu {
+        width: 260px;
+        height: 0px;
+        border: 2px solid #585863;
+        opacity: 0.3;
+        position: relative;
+        top: 145px;
+        left: 15px;
+    }
+    .hamburguer {
+        position: absolute;
+        left: 139px;
+        top: 11px;
+        width: 25px;
+        display: inline;
+    }
+    .hamburguer-desativar {
+        left: 1px;
+        top: 13px;
+    }
+    .cabecalho {
+        left: -254px;
+        width: 200%;
+    }
+    .cabecalho:after {
+        bottom: -64px;
+        left: 66%;
+    }
+    .logo_sendfy {
+        left: 329px;
+        top: 15px;
+    }
+    .cabecalho-rolagem {
+        display: none;
+    }
+    .menu-cabecalho {
+        display: none;
+    }
+    .ilustra_topo {
+        top: 92px;
+        left: 50%;
+        width: 255px;
+    }
+    .texto-cabecalho-1 {
+        top: 90px;
+        left: 271px;
+    }
+    .botao-criar-conta {
+        left: 64%;
+        top: 21px;
+    }
+    .botoes-cabecalho {
+        top: 343px;
+        left: 348px;
+        width: 70px;
+    }
+    .ou {
+        display: none;
+    }
+    .botao-acesse-agora {
+        width: 204px;
+        margin-bottom: 5px;
+        margin-top: -5px;
+    }
+    .botao-falar-com {
+        width: 204px;
+        z-index: 999;
+    }
+    .asset10 {
+        position: absolute;
+        left: 41px;
+    }
+    .titulo-asset10 {
+        position: absolute;
+        top: 186px;
+        left: 46px;
+        font-size: 23px;
+        width: 338px;
+    }
+    .texto-asset10 {
+        position: absolute;
+        left: 46px;
+        top: 218px;
+        font-size: 14px;
+    }
+    .borda {
+        top: 456px;
+        width: 90%;
+        left: 20px;
+    }
+    .asset9 {
+        position: absolute;
+        left: 41px;
+        top: 327px;
+    }
+    .titulo-asset9 {
+        position: absolute;
+        top: 503px;
+        left: 46px;
+        font-size: 23px;
+        width: 338px;
+    }
+    .texto-asset9 {
+        position: absolute;
+        left: 46px;
+        top: 575px;
+        font-size: 14px;
+    }
+    .borda-2 {
+        top: 812px;
+        width: 90%;
+        left: 20px;
+    }
+    .asset8 {
+        position: absolute;
+        left: 41px;
+        top: 669px;
+    }
+    .titulo-asset8 {
+        position: absolute;
+        top: 863px;
+        left: 46px;
+        font-size: 23px;
+        width: 338px;
+    }
+    .texto-asset8 {
+        position: absolute;
+        left: 46px;
+        top: 935px;
+        font-size: 14px;
+    }
+    .borda-3 {
+        top: 1174px;
+        width: 90%;
+        left: 20px;
+    }
+    .asset7 {
+        position: absolute;
+        left: 41px;
+        top: 1043px;
+    }
+    .titulo-asset7 {
+        position: absolute;
+        top: 1214px;
+        left: 46px;
+        font-size: 23px;
+        width: 338px;
+    }
+    .texto-asset7 {
+        position: absolute;
+        left: 46px;
+        top: 1280px;
+        font-size: 14px;
+    }
+    .funcionalidades {
+        position: absolute;
+        top: 419px;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        /* align-items: center; */
+    }
+    .botao-acesse-agora-funcionalidades {
+        top: 1361px;
+        position: absolute;
+        right: 106px;
+    }
+    .esquerda {
+        margin-right: 5%;
+        position: absolute;
+        right: 357%;
+    }
+    .direita {
+        position: absolute;
+        right: 354%;
+    }
+    .titulo-funcionalidades {
+        left: 17%;
+    }
+    .texto-veja {
+        position: absolute;
+        top: -77px;
+        width: 433px;
+    }
+    .video-veja {
+        right: 0px;
+    }
+    .veja-2 {
+        top: -40px;
+        left: -7px;
+        text-align: center;
+    }
+    .video-2 {
+        top: 71px;
+    }
+    .fim {
+        top: 4591px;
+    }
+    .rodape {
+        top: 3595px;
+    }
+    .principais-casos {
+        top: 3200px;
+    }
+    .veja {
+        height: 1220px;
+    }
+    .video-3 {
+        top: 120px;
+    }
+    .texto-veja-3 {
+        top: 12px;
+        left: 0px;
+        text-align: center;
+    }
+    .barra-2 {
+        top: 367px;
+    }
+    .conteudo-esquerdo h5 {
+        margin-top: -201px;
+        margin-left: -6px;
+        width: 240px;
+    }
+    .conteudo-esquerdo img {
+        margin-left: 52px;
+    }
+    .meio {
+        border-right: none;
+        position: absolute;
+        border-bottom: solid 2px gray;
+        width: 382px;
+        height: 2px;
+        margin-top: 56px;
+        left: 23px;
+    }
+    .conteudo-direito .insta {
+        margin-top: 20px;
+        margin-left: -138px;
+        position: absolute;
+    }
+    .conteudo-direito .linkedin {
+        margin-top: 20px;
+        margin-left: -78px;
+        position: absolute;
+    }
+    .conteudo-direito p {
+        position: absolute;
+        margin-top: 67px;
+        margin-left: -186px;
+    }
+    .fim a {
+        position: absolute;
+        margin-left: -191px;
+        margin-top: -28px;
+        width: 100%;
+    }
+    .copyright p {
+        margin-top: 55px;
+        margin-left: 111px;
+    }
+    .icons {
+        display: flex;
+        margin-top: 85px;
+        margin-left: -190px;
+    }
+    .fim {
+        height: 425px;
+    }
+    .input label {
+        display: block;
+    }
+    .rodape form {
+        width: 398px;
+    }
+    .sim-nao {
+        margin-left: -237px;
+    }
+    .envio-mensagem h1 {
+        width: 199px;
+    }
+    .rodape {
+        height: 948px;
+    }
+    .rodape form {
+        height: 740px;
+    }
+    .radiobox-interacoes {
+        display: block;
+    }
+    .radiobox {
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+    .input input {
+        margin-left: -1px;
+    }
+    .empresa {
+        width: 100% !important;
+        text-overflow: ellipsis;
+    }
+    .round label {
+        margin-top: 23px;
+        margin-left: -230px;
+    }
